@@ -1,0 +1,817 @@
+user_id,movie_title,genre,language,release_year,rating,timestamp,movie_id,is_original
+2,Kahaani,Thriller,Hindi,2012,4.5,2025-01-12 03:08:07,M018,False
+2,Kaithi,Action,Tamil,2019,5.0,2025-01-30 22:50:31,M043,False
+2,Brochevarevarura,Comedy,Telugu,2019,3.0,2025-02-15 14:56:50,M079,False
+4,Blade Runner 2049,Sci-Fi,English,2017,4.5,2025-05-19 00:37:59,M111,False
+4,Dhoom 2,Action,Hindi,2006,5.0,2025-06-12 22:22:47,M031,False
+4,The Hangover,Comedy,English,2009,3.5,2025-06-18 01:16:11,M125,False
+6,Barfi!,Romance,Hindi,2012,5.0,2025-04-12 09:30:52,M012,False
+6,Goodachari,Thriller,Telugu,2018,3.5,2025-06-11 05:06:05,M080,False
+7,Jersey,Drama,Telugu,2019,3.5,2025-01-13 01:25:15,M073,False
+7,RRR,Action,Telugu,2022,4.0,2025-01-25 00:16:57,M065,False
+8,Interstellar,Sci-Fi,English,2014,4.0,2024-09-18 11:54:27,M109,False
+8,Brochevarevarura,Comedy,Telugu,2019,3.0,2024-10-15 15:07:21,M079,False
+8,Asuran,Drama,Tamil,2019,4.0,2024-11-15 19:40:50,M051,False
+9,U Turn,Thriller,Kannada,2016,4.5,2025-06-11 02:24:28,M092,False
+9,Mungaru Male,Romance,Kannada,2006,4.0,2025-06-14 16:23:18,M097,False
+10,Pariyerum Perumal,Drama,Tamil,2018,3.5,2025-02-16 12:40:02,M054,False
+10,Goodachari,Thriller,Telugu,2018,3.5,2025-03-04 21:37:29,M080,False
+10,Lucifer,Action,Malayalam,2019,3.5,2025-04-20 02:47:26,M106,False
+11,Baahubali,Action,Telugu,2015,3.0,2024-12-12 23:15:36,M064,True
+11,Veer-Zaara,Romance,Hindi,2004,4.0,2025-02-06 09:13:08,M025,False
+11,Brochevarevarura,Comedy,Telugu,2019,3.5,2025-04-11 03:50:24,M079,False
+12,Andhadhun,Thriller,Hindi,2018,4.0,2025-10-27 03:49:00,M002,False
+12,Pink,Drama,Hindi,2016,3.0,2025-11-24 09:02:50,M004,False
+12,Charlie,Romance,Malayalam,2015,4.5,2025-12-11 20:42:04,M100,False
+13,Lucifer,Action,Malayalam,2019,4.5,2025-02-16 05:18:11,M106,False
+13,Gully Boy,Drama,Hindi,2019,5.0,2025-03-02 01:50:45,M011,False
+14,RRR,Action,Telugu,2022,3.0,2024-08-05 20:31:18,M065,True
+14,Ala Vaikunthapurramuloo,Comedy,Telugu,2020,3.5,2024-08-06 04:27:33,M076,False
+16,Maanagaram,Thriller,Tamil,2017,4.5,2025-04-21 13:03:02,M059,False
+16,Athadu,Action,Telugu,2005,4.0,2025-05-06 00:48:23,M068,False
+16,PK,Comedy,Hindi,2014,4.5,2025-05-14 20:56:25,M009,False
+18,Andhadhun,Thriller,Hindi,2018,4.0,2024-12-03 14:23:21,M002,False
+18,Knives Out,Thriller,English,2019,4.0,2025-01-05 23:37:20,M124,False
+18,Barfi!,Romance,Hindi,2012,4.0,2025-01-14 02:12:22,M012,False
+19,Tumbbad,Thriller,Hindi,2018,5.0,2025-06-19 09:52:57,M039,False
+19,Brochevarevarura,Comedy,Telugu,2019,4.5,2025-06-25 23:02:54,M079,False
+19,Mad Max: Fury Road,Action,English,2015,4.0,2025-07-13 19:09:33,M114,False
+22,Vinnaithaandi Varuvaayaa,Romance,Tamil,2010,2.5,2024-12-10 11:10:45,M058,False
+22,Magadheera,Action,Telugu,2009,4.5,2024-12-24 06:21:46,M067,False
+23,Master,Action,Tamil,2021,2.5,2025-10-06 04:33:19,M042,False
+23,Dear Comrade,Romance,Telugu,2019,2.0,2025-10-11 18:37:07,M072,False
+26,Dhoom 2,Action,Hindi,2006,5.0,2025-07-25 05:34:59,M031,False
+26,Kantara,Action,Kannada,2022,2.5,2025-08-16 04:27:17,M088,False
+26,Yeh Jawaani Hai Deewani,Romance,Hindi,2013,3.0,2025-08-21 10:36:08,M023,False
+28,Knives Out,Thriller,English,2019,3.5,2025-03-26 01:30:09,M124,False
+28,Inception,Sci-Fi,English,2010,4.5,2025-04-21 04:13:39,M108,False
+28,Android Kunjappan Version 5.25,Sci-Fi,Malayalam,2019,4.0,2025-05-14 00:36:26,M107,False
+29,Joji,Thriller,Malayalam,2021,3.0,2025-05-05 05:35:08,M103,False
+29,Zindagi Na Milegi Dobara,Drama,Hindi,2011,3.0,2025-06-04 21:28:36,M010,False
+29,Minnale,Romance,Tamil,2001,2.5,2025-06-23 21:19:04,M057,False
+31,Aditya 369,Sci-Fi,Telugu,1991,4.5,2025-08-12 00:51:46,M084,False
+31,Lucifer,Action,Malayalam,2019,2.5,2025-09-29 06:10:42,M106,False
+33,Inception,Sci-Fi,English,2010,3.0,2024-12-08 15:38:15,M108,False
+33,Munna Bhai M.B.B.S.,Comedy,Hindi,2003,4.0,2024-12-27 10:30:15,M016,False
+34,Mahanati,Drama,Telugu,2018,4.5,2024-08-11 09:13:17,M074,False
+34,Pushpa: The Rise,Action,Telugu,2021,3.0,2024-10-07 05:16:41,M066,False
+34,96,Romance,Tamil,2018,4.0,2024-10-16 08:08:24,M049,False
+35,Andhadhun,Thriller,Hindi,2018,3.0,2025-05-05 02:35:08,M002,True
+35,Veer-Zaara,Romance,Hindi,2004,5.0,2025-06-12 20:11:20,M025,False
+36,Vinnaithaandi Varuvaayaa,Romance,Tamil,2010,3.5,2024-09-22 16:54:33,M058,False
+36,Baahubali,Action,Telugu,2015,3.0,2024-11-04 09:52:41,M064,False
+37,Rockstar,Romance,Hindi,2011,3.5,2025-02-15 09:37:05,M024,False
+37,Ulidavaru Kandanthe,Drama,Kannada,2014,4.0,2025-03-27 06:39:30,M095,False
+37,Article 15,Drama,Hindi,2019,4.5,2025-04-02 09:54:38,M040,False
+38,Barfi!,Romance,Hindi,2012,5.0,2025-11-12 00:11:00,M012,False
+38,Chak De! India,Drama,Hindi,2007,2.5,2025-11-12 14:16:19,M017,False
+39,Aditya 369,Sci-Fi,Telugu,1991,4.5,2025-03-12 14:01:37,M084,False
+39,Kaithi,Action,Tamil,2019,5.0,2025-03-23 00:20:35,M043,False
+39,Pushpa: The Rise,Action,Telugu,2021,4.0,2025-04-23 04:54:54,M066,False
+40,Brochevarevarura,Comedy,Telugu,2019,5.0,2024-11-26 01:47:25,M079,False
+40,Maanagaram,Thriller,Tamil,2017,4.0,2024-11-27 18:29:24,M059,False
+40,Charlie,Romance,Malayalam,2015,4.0,2024-12-06 02:04:28,M100,False
+42,Vikram Vedha,Thriller,Tamil,2017,5.0,2025-01-27 18:44:15,M047,False
+42,Lucia,Thriller,Kannada,2013,4.5,2025-01-28 15:26:41,M091,False
+42,Agent Sai Srinivasa Athreya,Thriller,Telugu,2019,5.0,2025-02-10 12:46:45,M083,False
+43,777 Charlie,Drama,Kannada,2022,5.0,2025-10-19 16:29:45,M096,False
+43,Jab We Met,Romance,Hindi,2007,4.0,2025-11-07 11:30:20,M022,False
+43,Yeh Jawaani Hai Deewani,Romance,Hindi,2013,5.0,2025-11-07 13:51:48,M023,False
+45,U Turn,Thriller,Kannada,2016,4.0,2025-08-27 08:12:11,M092,False
+45,Rangitaranga,Thriller,Kannada,2015,4.0,2025-09-11 01:56:21,M093,False
+47,Pathaan,Action,Hindi,2023,4.0,2025-02-12 20:36:35,M033,False
+47,RRR,Action,Telugu,2022,3.5,2025-02-13 01:30:43,M065,False
+47,Asuran,Drama,Tamil,2019,3.5,2025-02-13 05:31:59,M051,False
+48,U Turn,Thriller,Kannada,2016,5.0,2025-05-17 03:14:08,M092,False
+48,Vinnaithaandi Varuvaayaa,Romance,Tamil,2010,4.5,2025-05-20 21:19:36,M058,False
+49,Barfi!,Romance,Hindi,2012,5.0,2024-11-19 15:44:55,M012,False
+49,777 Charlie,Drama,Kannada,2022,3.5,2024-12-15 17:46:39,M096,False
+49,Kalki 2898 AD,Sci-Fi,Telugu,2024,3.0,2024-12-29 10:10:44,M086,False
+50,Aditya 369,Sci-Fi,Telugu,1991,1.5,2025-10-02 05:49:48,M084,False
+50,Athadu,Action,Telugu,2005,3.5,2025-10-26 19:42:47,M068,False
+52,Mungaru Male,Romance,Kannada,2006,5.0,2025-07-28 20:04:06,M097,False
+52,RRR,Action,Telugu,2022,3.0,2025-09-02 11:59:00,M065,True
+52,Ala Vaikunthapurramuloo,Comedy,Telugu,2020,2.5,2025-10-04 04:47:29,M076,False
+54,Taare Zameen Par,Drama,Hindi,2007,3.5,2025-07-29 20:05:08,M015,False
+54,PK,Comedy,Hindi,2014,4.5,2025-08-29 16:22:00,M009,False
+56,Pathaan,Action,Hindi,2023,4.5,2025-09-03 12:54:26,M033,False
+56,Hera Pheri,Comedy,Hindi,2000,5.0,2025-09-13 21:29:26,M037,False
+58,Mersal,Action,Tamil,2017,2.5,2025-07-12 16:24:16,M055,False
+58,Asuran,Drama,Tamil,2019,2.5,2025-08-13 13:46:53,M051,False
+58,Brochevarevarura,Comedy,Telugu,2019,4.0,2025-09-05 23:22:28,M079,False
+59,Gully Boy,Drama,Hindi,2019,4.0,2025-06-23 06:41:59,M011,False
+59,Munna Bhai M.B.B.S.,Comedy,Hindi,2003,4.0,2025-08-04 04:38:43,M016,False
+60,Yeh Jawaani Hai Deewani,Romance,Hindi,2013,4.0,2024-12-26 23:39:29,M023,False
+60,Brochevarevarura,Comedy,Telugu,2019,3.5,2025-01-19 01:29:40,M079,False
+60,Charlie,Romance,Malayalam,2015,5.0,2025-01-22 10:39:51,M100,False
+61,Kaithi,Action,Tamil,2019,4.5,2025-04-30 22:42:09,M043,False
+61,Charlie,Romance,Malayalam,2015,4.0,2025-05-05 15:05:18,M100,False
+62,Aditya 369,Sci-Fi,Telugu,1991,2.5,2025-07-01 10:23:33,M084,False
+62,Brochevarevarura,Comedy,Telugu,2019,3.0,2025-07-16 17:27:36,M079,False
+62,Athadu,Action,Telugu,2005,2.5,2025-07-22 03:06:38,M068,False
+64,Special 26,Thriller,Hindi,2013,3.0,2025-10-17 12:04:14,M020,False
+64,Asuran,Drama,Tamil,2019,4.5,2025-10-18 06:13:12,M051,False
+64,U Turn,Thriller,Kannada,2016,3.5,2025-10-19 07:45:54,M092,False
+65,Asuran,Drama,Tamil,2019,3.0,2024-12-01 01:19:32,M051,False
+65,RRR,Action,Telugu,2022,4.0,2024-12-01 20:48:51,M065,False
+65,Kantara,Action,Kannada,2022,3.5,2024-12-07 17:53:28,M088,False
+67,Pink,Drama,Hindi,2016,3.0,2025-11-10 05:16:20,M004,False
+67,Charlie,Romance,Malayalam,2015,4.0,2025-12-10 03:48:52,M100,False
+67,Asuran,Drama,Tamil,2019,4.0,2025-12-22 01:32:02,M051,False
+70,Andhadhun,Thriller,Hindi,2018,3.0,2025-09-17 04:10:57,M002,True
+70,Lagaan,Drama,Hindi,2001,2.5,2025-09-21 23:29:55,M006,False
+73,Pink,Drama,Hindi,2016,2.5,2025-01-09 19:11:22,M004,False
+73,Jawan,Action,Hindi,2023,4.5,2025-02-06 01:08:30,M034,False
+73,The Martian,Sci-Fi,English,2015,3.5,2025-02-19 10:14:44,M112,False
+75,Ulidavaru Kandanthe,Drama,Kannada,2014,4.0,2025-07-20 05:04:05,M095,False
+75,Super Deluxe,Drama,Tamil,2019,4.0,2025-08-15 10:01:40,M048,False
+77,Knives Out,Thriller,English,2019,4.0,2024-10-05 08:14:34,M124,False
+77,F2,Comedy,Telugu,2019,4.0,2024-11-01 22:02:10,M078,False
+77,Mersal,Action,Tamil,2017,4.0,2024-12-20 08:52:05,M055,False
+78,Kaithi,Action,Tamil,2019,3.5,2024-10-14 20:59:40,M043,False
+78,Vikram,Action,Tamil,2022,3.0,2024-10-19 08:01:24,M041,False
+78,Mad Max: Fury Road,Action,English,2015,3.5,2024-10-25 08:40:54,M114,False
+80,The Matrix,Sci-Fi,English,1999,4.0,2024-12-21 14:21:09,M110,False
+80,The Martian,Sci-Fi,English,2015,5.0,2025-01-20 11:27:45,M112,False
+80,Badla,Thriller,Hindi,2019,2.0,2025-02-16 09:56:58,M019,False
+82,Lucia,Thriller,Kannada,2013,5.0,2025-10-05 05:29:21,M091,False
+82,Pathaan,Action,Hindi,2023,4.0,2025-10-23 08:25:11,M033,False
+83,Barfi!,Romance,Hindi,2012,5.0,2025-06-15 10:15:04,M012,False
+83,Joji,Thriller,Malayalam,2021,4.0,2025-07-04 08:07:03,M103,False
+83,War,Action,Hindi,2019,5.0,2025-08-10 18:50:02,M032,False
+84,Pathaan,Action,Hindi,2023,4.0,2024-09-15 20:52:47,M033,False
+84,U Turn,Thriller,Kannada,2016,4.0,2024-10-02 01:04:14,M092,False
+84,Rang De Basanti,Drama,Hindi,2006,4.0,2024-10-12 09:46:54,M014,False
+86,Kahaani,Thriller,Hindi,2012,4.0,2025-05-18 05:31:13,M018,False
+86,Ra.One,Sci-Fi,Hindi,2011,4.5,2025-07-13 21:08:51,M028,False
+86,U Turn,Thriller,Kannada,2016,5.0,2025-07-31 12:39:16,M092,False
+87,Ulidavaru Kandanthe,Drama,Kannada,2014,4.0,2024-11-21 18:52:28,M095,False
+87,Asuran,Drama,Tamil,2019,3.5,2024-11-29 19:59:47,M051,False
+88,Rangitaranga,Thriller,Kannada,2015,4.0,2025-05-01 10:06:58,M093,False
+88,Uri: The Surgical Strike,Action,Hindi,2019,4.0,2025-05-08 17:57:37,M035,False
+88,Sapta Sagaradaache Ello,Romance,Kannada,2023,4.0,2025-05-25 15:40:44,M098,False
+90,Barfi!,Romance,Hindi,2012,5.0,2024-12-09 06:14:03,M012,False
+90,Dilwale Dulhania Le Jayenge,Romance,Hindi,1995,5.0,2024-12-15 07:10:16,M007,False
+90,Dil Chahta Hai,Comedy,Hindi,2001,4.0,2024-12-16 16:25:20,M013,False
+93,3 Idiots,Comedy,Hindi,2009,2.5,2024-12-14 17:12:19,M001,True
+93,Baahubali,Action,Telugu,2015,2.5,2024-12-21 06:32:01,M064,True
+93,Pink,Drama,Hindi,2016,5.0,2024-12-25 06:32:56,M004,False
+94,Magadheera,Action,Telugu,2009,5.0,2025-05-29 03:17:15,M067,False
+94,The Hangover,Comedy,English,2009,2.5,2025-05-31 14:41:04,M125,False
+94,Barfi!,Romance,Hindi,2012,4.5,2025-06-14 15:10:59,M012,False
+94,Ugramm,Action,Kannada,2014,3.5,2025-06-28 09:38:19,M089,False
+99,Aditya 369,Sci-Fi,Telugu,1991,2.5,2024-10-07 23:39:42,M084,False
+99,Asuran,Drama,Tamil,2019,3.0,2024-10-08 18:32:19,M051,False
+99,Knives Out,Thriller,English,2019,4.0,2024-10-14 20:12:37,M124,False
+100,Dhoom 2,Action,Hindi,2006,5.0,2025-11-10 09:42:17,M031,False
+100,Ala Vaikunthapurramuloo,Comedy,Telugu,2020,4.5,2025-11-17 12:38:01,M076,False
+100,Zindagi Na Milegi Dobara,Drama,Hindi,2011,4.5,2025-11-30 02:43:24,M010,False
+101,Lucifer,Action,Malayalam,2019,4.5,2025-06-11 22:41:20,M106,False
+101,Chak De! India,Drama,Hindi,2007,4.5,2025-06-26 15:49:53,M017,False
+103,Charlie,Romance,Malayalam,2015,3.5,2025-09-06 23:11:21,M100,False
+103,Oke Oka Jeevitham,Sci-Fi,Telugu,2022,3.0,2025-09-09 17:51:07,M085,False
+103,Athadu,Action,Telugu,2005,4.5,2025-09-16 07:06:20,M068,False
+104,Knives Out,Thriller,English,2019,4.5,2025-04-12 23:06:22,M124,False
+104,The Dark Knight,Action,English,2008,1.5,2025-04-15 16:45:10,M113,False
+104,Vikram Vedha,Thriller,Tamil,2017,2.5,2025-05-14 04:29:27,M047,False
+107,Charlie,Romance,Malayalam,2015,3.5,2025-07-02 09:55:04,M100,False
+107,The Shawshank Redemption,Drama,English,1994,3.0,2025-07-16 09:55:58,M119,False
+109,PK,Comedy,Hindi,2014,5.0,2024-09-15 00:06:29,M009,False
+109,Minnale,Romance,Tamil,2001,3.0,2024-09-15 03:45:00,M057,False
+111,Asuran,Drama,Tamil,2019,2.5,2025-08-02 13:02:48,M051,False
+111,Dhoom 2,Action,Hindi,2006,5.0,2025-08-15 12:03:34,M031,False
+112,Master,Action,Tamil,2021,3.0,2025-09-29 14:49:13,M042,False
+112,Bajrangi Bhaijaan,Drama,Hindi,2015,3.5,2025-10-03 00:14:40,M029,False
+112,Barfi!,Romance,Hindi,2012,4.5,2025-11-27 13:07:26,M012,False
+113,Maanagaram,Thriller,Tamil,2017,4.0,2025-09-10 21:06:26,M059,False
+113,The Shawshank Redemption,Drama,English,1994,5.0,2025-09-11 15:53:40,M119,False
+117,2.0,Sci-Fi,Tamil,2018,2.5,2025-07-12 21:26:29,M045,False
+117,The Matrix,Sci-Fi,English,1999,4.0,2025-08-29 02:34:08,M110,False
+120,Rockstar,Romance,Hindi,2011,4.5,2025-04-02 20:25:05,M024,False
+120,Brochevarevarura,Comedy,Telugu,2019,2.5,2025-05-01 06:57:46,M079,False
+120,Soorarai Pottru,Drama,Tamil,2020,3.5,2025-05-18 00:17:44,M052,False
+121,Kumbalangi Nights,Drama,Malayalam,2019,5.0,2025-07-28 08:41:06,M101,False
+121,Mungaru Male,Romance,Kannada,2006,3.5,2025-09-01 06:22:01,M097,False
+122,Goodachari,Thriller,Telugu,2018,3.5,2024-09-19 13:22:09,M080,False
+122,Charlie,Romance,Malayalam,2015,4.0,2024-10-09 06:32:36,M100,False
+122,Agent Sai Srinivasa Athreya,Thriller,Telugu,2019,4.5,2024-11-04 23:12:42,M083,False
+123,Munna Bhai M.B.B.S.,Comedy,Hindi,2003,3.0,2024-09-05 05:49:52,M016,False
+123,Interstellar,Sci-Fi,English,2014,4.5,2024-09-22 05:12:19,M109,False
+123,Maheshinte Prathikaaram,Comedy,Malayalam,2016,4.5,2024-10-03 21:33:31,M102,False
+124,Drishyam,Thriller,Hindi,2015,3.5,2024-12-28 13:56:14,M005,False
+124,The Notebook,Romance,English,2004,3.5,2025-02-01 19:10:50,M118,False
+125,KGF,Action,Kannada,2018,4.0,2025-11-23 03:40:50,M087,False
+125,Barfi!,Romance,Hindi,2012,5.0,2025-12-12 08:52:13,M012,False
+126,Enthiran,Sci-Fi,Tamil,2010,3.5,2025-10-11 03:52:45,M044,False
+126,Blade Runner 2049,Sci-Fi,English,2017,3.5,2025-11-05 20:12:38,M111,False
+126,Charlie,Romance,Malayalam,2015,4.0,2025-11-07 20:11:18,M100,False
+127,Blade Runner 2049,Sci-Fi,English,2017,3.5,2025-01-14 11:44:30,M111,False
+127,U Turn,Thriller,Kannada,2016,5.0,2025-01-16 06:23:32,M092,False
+127,Dhoom 2,Action,Hindi,2006,5.0,2025-01-20 22:29:53,M031,False
+130,3 Idiots,Comedy,Hindi,2009,4.5,2025-08-10 19:56:48,M001,True
+130,Asuran,Drama,Tamil,2019,3.5,2025-08-28 05:57:14,M051,False
+130,Pink,Drama,Hindi,2016,3.0,2025-11-02 23:02:48,M004,True
+131,Dil Chahta Hai,Comedy,Hindi,2001,4.5,2025-10-17 11:24:23,M013,False
+131,Knives Out,Thriller,English,2019,3.5,2025-10-23 23:22:56,M124,False
+132,Superbad,Comedy,English,2007,4.0,2025-05-16 00:52:21,M126,False
+132,Arjun Reddy,Romance,Telugu,2017,3.0,2025-05-30 10:59:05,M069,False
+132,Pushpa: The Rise,Action,Telugu,2021,3.5,2025-06-05 23:42:33,M066,False
+133,Knives Out,Thriller,English,2019,5.0,2025-07-04 03:21:49,M124,False
+133,Dhoom 2,Action,Hindi,2006,3.5,2025-07-23 07:27:01,M031,False
+134,Tumbbad,Thriller,Hindi,2018,5.0,2024-11-05 10:59:50,M039,False
+134,Forrest Gump,Drama,English,1994,5.0,2024-11-25 15:25:32,M120,False
+136,Pushpa: The Rise,Action,Telugu,2021,3.5,2025-05-31 05:33:00,M066,False
+136,U Turn,Thriller,Kannada,2016,5.0,2025-06-19 22:58:34,M092,False
+136,Dil Chahta Hai,Comedy,Hindi,2001,5.0,2025-06-20 01:56:10,M013,False
+138,Special 26,Thriller,Hindi,2013,4.5,2025-04-17 10:56:22,M020,False
+138,Anniyan,Thriller,Tamil,2005,3.5,2025-04-25 19:45:36,M063,False
+138,Andhadhun,Thriller,Hindi,2018,4.5,2025-05-24 11:02:26,M002,True
+139,Dangal,Drama,Hindi,2016,3.0,2025-02-06 10:31:34,M003,False
+139,Jersey,Drama,Telugu,2019,3.5,2025-02-17 23:19:19,M073,False
+139,The Hangover,Comedy,English,2009,4.0,2025-05-31 22:33:28,M125,False
+140,RRR,Action,Telugu,2022,5.0,2025-01-10 13:07:32,M065,True
+140,Maanagaram,Thriller,Tamil,2017,3.5,2025-02-07 22:27:23,M059,False
+140,Special 26,Thriller,Hindi,2013,3.0,2025-02-15 20:14:21,M020,False
+141,Dil Chahta Hai,Comedy,Hindi,2001,2.0,2025-08-07 20:52:58,M013,False
+141,96,Romance,Tamil,2018,3.0,2025-09-23 07:33:07,M049,False
+141,Joji,Thriller,Malayalam,2021,2.5,2025-09-23 18:50:51,M103,False
+142,Dilwale Dulhania Le Jayenge,Romance,Hindi,1995,3.0,2025-05-07 03:21:45,M007,False
+142,Dangal,Drama,Hindi,2016,3.0,2025-05-13 05:40:29,M003,True
+142,Aditya 369,Sci-Fi,Telugu,1991,4.0,2025-05-28 11:37:42,M084,False
+143,3 Idiots,Comedy,Hindi,2009,3.5,2025-08-11 16:36:39,M001,False
+143,Koi... Mil Gaya,Sci-Fi,Hindi,2003,4.0,2025-09-17 01:59:59,M026,False
+144,Master,Action,Tamil,2021,3.5,2025-03-06 23:51:00,M042,False
+144,Maanagaram,Thriller,Tamil,2017,3.5,2025-03-16 01:39:32,M059,False
+144,Inception,Sci-Fi,English,2010,3.0,2025-04-26 14:04:19,M108,False
+146,Soorarai Pottru,Drama,Tamil,2020,3.5,2025-08-12 22:31:45,M052,False
+146,The Matrix,Sci-Fi,English,1999,2.5,2025-09-20 19:41:46,M110,False
+149,Soorarai Pottru,Drama,Tamil,2020,4.5,2024-08-16 20:41:04,M052,False
+149,Kalki 2898 AD,Sci-Fi,Telugu,2024,3.5,2024-09-27 15:03:57,M086,False
+149,Knives Out,Thriller,English,2019,5.0,2024-10-03 08:41:58,M124,False
+151,Sapta Sagaradaache Ello,Romance,Kannada,2023,4.0,2025-01-23 17:48:40,M098,False
+151,Kantara,Action,Kannada,2022,4.0,2025-01-31 16:01:22,M088,False
+151,Knives Out,Thriller,English,2019,4.0,2025-02-19 10:20:54,M124,False
+153,Android Kunjappan Version 5.25,Sci-Fi,Malayalam,2019,2.5,2025-10-19 04:27:56,M107,False
+153,La La Land,Romance,English,2016,4.0,2025-10-22 08:15:21,M117,False
+153,Barfi!,Romance,Hindi,2012,5.0,2025-10-23 08:49:19,M012,False
+155,96,Romance,Tamil,2018,4.5,2025-06-13 07:57:31,M049,False
+155,Pushpa: The Rise,Action,Telugu,2021,4.5,2025-06-14 03:52:33,M066,False
+156,Gladiator,Action,English,2000,3.0,2025-09-23 22:26:28,M115,False
+156,Android Kunjappan Version 5.25,Sci-Fi,Malayalam,2019,3.5,2025-10-05 03:01:27,M107,False
+156,PK,Comedy,Hindi,2014,5.0,2025-11-19 18:23:19,M009,False
+157,Dangal,Drama,Hindi,2016,4.0,2025-04-30 17:31:37,M003,True
+157,Kshanam,Thriller,Telugu,2016,3.5,2025-05-13 18:30:53,M082,False
+158,Special 26,Thriller,Hindi,2013,1.5,2025-07-18 15:26:28,M020,False
+158,Badla,Thriller,Hindi,2019,2.5,2025-07-25 23:41:08,M019,False
+158,Kumbalangi Nights,Drama,Malayalam,2019,2.5,2025-08-02 09:35:55,M101,False
+160,Minnale,Romance,Tamil,2001,3.5,2024-12-10 16:09:13,M057,False
+160,Kaithi,Action,Tamil,2019,4.0,2024-12-19 16:21:51,M043,False
+161,Athadu,Action,Telugu,2005,4.5,2024-08-12 13:13:25,M068,False
+161,The Hangover,Comedy,English,2009,4.0,2024-09-06 00:40:51,M125,False
+164,Goodachari,Thriller,Telugu,2018,3.5,2025-01-25 14:41:03,M080,False
+164,Kavaludaari,Thriller,Kannada,2019,4.0,2025-02-11 08:26:06,M094,False
+165,Article 15,Drama,Hindi,2019,4.0,2025-04-17 08:54:07,M040,False
+165,Sapta Sagaradaache Ello,Romance,Kannada,2023,4.0,2025-04-28 07:09:14,M098,False
+165,A Wednesday,Thriller,Hindi,2008,4.5,2025-05-03 05:17:24,M021,False
+166,Pariyerum Perumal,Drama,Tamil,2018,5.0,2025-04-27 13:52:58,M054,False
+166,Chak De! India,Drama,Hindi,2007,3.5,2025-04-28 18:39:18,M017,False
+166,Minnal Murali,Action,Malayalam,2021,5.0,2025-06-04 15:15:40,M105,False
+169,Asuran,Drama,Tamil,2019,3.0,2025-10-14 18:35:12,M051,False
+169,Queen,Comedy,Hindi,2013,4.0,2025-10-23 11:40:04,M008,False
+169,Drishyam,Thriller,Hindi,2015,4.0,2025-10-25 12:12:03,M005,True
+171,Mad Max: Fury Road,Action,English,2015,3.5,2025-04-24 04:46:45,M114,False
+171,Aditya 369,Sci-Fi,Telugu,1991,3.5,2025-04-29 10:01:06,M084,False
+171,Maheshinte Prathikaaram,Comedy,Malayalam,2016,4.5,2025-05-11 01:59:00,M102,False
+172,Barfi!,Romance,Hindi,2012,5.0,2025-08-23 15:01:59,M012,False
+172,Brochevarevarura,Comedy,Telugu,2019,4.5,2025-08-23 15:56:31,M079,False
+172,Evaru,Thriller,Telugu,2019,2.5,2025-08-27 13:03:31,M081,False
+174,Thani Oruvan,Thriller,Tamil,2015,3.5,2025-04-25 09:55:46,M060,False
+174,Dhoom 2,Action,Hindi,2006,4.0,2025-05-21 20:28:52,M031,False
+175,Ulidavaru Kandanthe,Drama,Kannada,2014,4.0,2025-04-13 21:35:25,M095,False
+175,Dil Chahta Hai,Comedy,Hindi,2001,4.5,2025-04-25 03:12:21,M013,False
+175,Kavaludaari,Thriller,Kannada,2019,4.5,2025-04-30 08:05:53,M094,False
+177,The Hangover,Comedy,English,2009,3.5,2025-05-29 20:52:28,M125,False
+177,Ulidavaru Kandanthe,Drama,Kannada,2014,3.0,2025-06-02 10:23:18,M095,False
+177,Superbad,Comedy,English,2007,3.0,2025-06-03 00:30:49,M126,False
+180,Barfi!,Romance,Hindi,2012,5.0,2025-04-14 16:04:20,M012,False
+180,Ra.One,Sci-Fi,Hindi,2011,3.5,2025-04-28 05:37:19,M028,False
+180,Asuran,Drama,Tamil,2019,4.5,2025-05-20 09:12:06,M051,False
+181,2.0,Sci-Fi,Tamil,2018,4.0,2024-09-27 06:06:06,M045,False
+181,A Wednesday,Thriller,Hindi,2008,4.5,2024-10-25 09:07:21,M021,False
+185,Dil Chahta Hai,Comedy,Hindi,2001,4.0,2025-08-02 09:44:59,M013,False
+185,Article 15,Drama,Hindi,2019,5.0,2025-08-09 09:03:43,M040,False
+187,Munna Bhai M.B.B.S.,Comedy,Hindi,2003,5.0,2025-01-05 10:19:31,M016,False
+187,The Hangover,Comedy,English,2009,4.0,2025-01-29 14:08:30,M125,False
+187,KGF,Action,Kannada,2018,3.5,2025-02-13 04:05:39,M087,True
+189,Gone Girl,Thriller,English,2014,4.0,2025-06-11 16:00:17,M123,False
+189,U Turn,Thriller,Kannada,2016,4.0,2025-06-19 09:29:02,M092,False
+189,Titanic,Romance,English,1997,3.5,2025-06-21 10:38:34,M116,False
+190,Enthiran,Sci-Fi,Tamil,2010,2.5,2025-09-08 20:03:41,M044,False
+190,F2,Comedy,Telugu,2019,5.0,2025-10-16 04:08:36,M078,False
+193,The Dark Knight,Action,English,2008,4.5,2024-10-16 02:02:21,M113,False
+193,Kolamaavu Kokila,Comedy,Tamil,2018,4.5,2024-10-21 13:36:12,M062,False
+193,Barfi!,Romance,Hindi,2012,5.0,2024-11-03 21:35:38,M012,False
+194,Kumbalangi Nights,Drama,Malayalam,2019,3.0,2025-03-08 23:49:38,M101,False
+194,Barfi!,Romance,Hindi,2012,5.0,2025-04-21 04:53:23,M012,False
+194,Agent Sai Srinivasa Athreya,Thriller,Telugu,2019,5.0,2025-04-30 21:53:41,M083,False
+195,Charlie,Romance,Malayalam,2015,4.5,2025-08-30 17:32:22,M100,False
+195,Magadheera,Action,Telugu,2009,5.0,2025-09-08 01:24:14,M067,False
+195,Barfi!,Romance,Hindi,2012,5.0,2025-09-10 16:55:57,M012,False
+196,Andhadhun,Thriller,Hindi,2018,4.5,2024-08-30 05:09:00,M002,True
+196,Magadheera,Action,Telugu,2009,5.0,2024-10-22 13:25:20,M067,False
+196,Kaithi,Action,Tamil,2019,4.5,2024-11-02 16:54:38,M043,False
+198,Dhoom 2,Action,Hindi,2006,5.0,2024-11-05 19:22:25,M031,False
+198,Brochevarevarura,Comedy,Telugu,2019,4.0,2024-11-24 08:09:27,M079,False
+198,Kavaludaari,Thriller,Kannada,2019,4.0,2024-12-04 05:24:59,M094,False
+199,Chak De! India,Drama,Hindi,2007,4.0,2025-08-27 19:32:03,M017,False
+199,Andhadhun,Thriller,Hindi,2018,3.0,2025-08-30 00:02:34,M002,False
+199,Article 15,Drama,Hindi,2019,5.0,2025-09-14 08:55:28,M040,False
+200,Inception,Sci-Fi,English,2010,3.0,2025-09-05 08:17:04,M108,False
+200,Dangal,Drama,Hindi,2016,5.0,2025-10-25 07:12:04,M003,False
+201,Soorarai Pottru,Drama,Tamil,2020,4.0,2025-08-04 11:52:33,M052,False
+201,Koi... Mil Gaya,Sci-Fi,Hindi,2003,3.5,2025-08-18 15:00:39,M026,False
+201,Jersey,Drama,Telugu,2019,3.0,2025-08-20 22:26:15,M073,False
+202,Kumbalangi Nights,Drama,Malayalam,2019,4.5,2025-03-09 02:37:05,M101,False
+202,Baahubali,Action,Telugu,2015,4.0,2025-03-14 12:15:13,M064,False
+202,Joji,Thriller,Malayalam,2021,5.0,2025-03-19 19:01:43,M103,False
+205,Dhoom 2,Action,Hindi,2006,4.5,2024-11-07 05:16:52,M031,False
+205,Charlie,Romance,Malayalam,2015,4.5,2024-11-22 09:23:48,M100,False
+206,Pariyerum Perumal,Drama,Tamil,2018,4.0,2024-06-10 23:46:59,M054,False
+206,Dangal,Drama,Hindi,2016,5.0,2024-07-05 01:00:07,M003,False
+206,Mad Max: Fury Road,Action,English,2015,4.0,2024-08-01 10:36:10,M114,False
+207,Chak De! India,Drama,Hindi,2007,5.0,2025-05-13 03:08:54,M017,False
+207,Evaru,Thriller,Telugu,2019,3.0,2025-05-18 07:26:46,M081,False
+207,Andhadhun,Thriller,Hindi,2018,3.0,2025-05-19 18:19:14,M002,False
+208,Chak De! India,Drama,Hindi,2007,3.5,2025-11-02 10:02:12,M017,False
+208,Dhoom 2,Action,Hindi,2006,5.0,2025-11-14 21:51:17,M031,False
+208,RRR,Action,Telugu,2022,5.0,2025-11-16 10:56:21,M065,False
+209,Barfi!,Romance,Hindi,2012,4.0,2024-10-30 15:39:36,M012,False
+209,Dil Chahta Hai,Comedy,Hindi,2001,2.5,2024-11-02 06:20:57,M013,False
+209,PK,Comedy,Hindi,2014,4.5,2024-11-14 08:41:58,M009,False
+211,Bhool Bhulaiyaa,Comedy,Hindi,2007,4.0,2025-04-16 04:31:28,M036,False
+211,Barfi!,Romance,Hindi,2012,4.0,2025-04-23 02:01:16,M012,False
+211,Charlie,Romance,Malayalam,2015,3.5,2025-06-28 13:17:47,M100,False
+214,Uri: The Surgical Strike,Action,Hindi,2019,2.5,2024-10-16 18:51:30,M035,False
+214,Lucifer,Action,Malayalam,2019,3.0,2024-10-18 06:31:33,M106,False
+215,Drishyam,Thriller,Hindi,2015,5.0,2024-09-08 00:47:57,M005,False
+215,Master,Action,Tamil,2021,4.5,2024-09-18 12:06:08,M042,False
+215,Charlie,Romance,Malayalam,2015,5.0,2024-09-28 17:57:40,M100,False
+215,Kaithi,Action,Tamil,2019,5.0,2024-10-19 11:21:02,M043,False
+217,La La Land,Romance,English,2016,3.5,2025-06-26 11:58:04,M117,False
+217,Kavaludaari,Thriller,Kannada,2019,3.5,2025-07-03 08:20:33,M094,False
+217,Baahubali,Action,Telugu,2015,4.5,2025-07-06 15:55:42,M064,False
+218,Barfi!,Romance,Hindi,2012,4.5,2025-01-09 10:03:33,M012,False
+218,Zindagi Na Milegi Dobara,Drama,Hindi,2011,2.0,2025-01-21 12:18:09,M010,False
+218,Theri,Action,Tamil,2016,4.0,2025-03-08 00:59:02,M056,False
+219,Hera Pheri,Comedy,Hindi,2000,4.5,2024-05-22 23:34:11,M037,False
+219,Shutter Island,Thriller,English,2010,4.0,2024-06-28 06:55:06,M122,False
+219,Anniyan,Thriller,Tamil,2005,3.5,2024-07-11 20:09:11,M063,False
+220,Kirik Party,Comedy,Kannada,2016,4.5,2025-09-25 16:10:03,M090,False
+220,Barfi!,Romance,Hindi,2012,5.0,2025-09-30 21:25:16,M012,False
+220,Charlie,Romance,Malayalam,2015,5.0,2025-10-10 11:44:20,M100,False
+221,The Dark Knight,Action,English,2008,2.5,2024-09-13 23:36:21,M113,False
+221,Maheshinte Prathikaaram,Comedy,Malayalam,2016,4.0,2024-11-08 07:42:11,M102,False
+221,Android Kunjappan Version 5.25,Sci-Fi,Malayalam,2019,2.5,2024-12-19 18:37:10,M107,False
+222,Rangasthalam,Drama,Telugu,2018,2.5,2025-05-08 15:23:28,M075,False
+222,Soorarai Pottru,Drama,Tamil,2020,4.5,2025-05-10 18:52:14,M052,False
+222,Kantara,Action,Kannada,2022,3.0,2025-05-12 17:19:54,M088,False
+223,A Wednesday,Thriller,Hindi,2008,5.0,2025-07-09 16:31:14,M021,False
+223,Titanic,Romance,English,1997,4.0,2025-08-01 05:39:25,M116,False
+223,The Hangover,Comedy,English,2009,4.5,2025-08-06 13:34:04,M125,False
+225,Kaithi,Action,Tamil,2019,5.0,2025-10-23 11:06:28,M043,False
+225,Blade Runner 2049,Sci-Fi,English,2017,5.0,2025-10-27 01:10:33,M111,False
+228,96,Romance,Tamil,2018,3.5,2025-03-23 01:17:56,M049,False
+228,Enthiran,Sci-Fi,Tamil,2010,2.5,2025-03-26 19:31:54,M044,False
+228,Maanagaram,Thriller,Tamil,2017,1.0,2025-04-18 16:10:31,M059,False
+229,Android Kunjappan Version 5.25,Sci-Fi,Malayalam,2019,5.0,2025-09-24 04:14:30,M107,False
+229,Brochevarevarura,Comedy,Telugu,2019,3.5,2025-10-08 01:27:17,M079,False
+229,Magadheera,Action,Telugu,2009,5.0,2025-10-31 15:13:54,M067,False
+231,Titanic,Romance,English,1997,3.0,2025-07-06 06:21:16,M116,False
+231,Love Today,Comedy,Tamil,2022,3.5,2025-07-10 14:39:28,M061,False
+231,Ratsasan,Thriller,Tamil,2018,4.0,2025-07-18 04:50:49,M053,False
+232,Jab We Met,Romance,Hindi,2007,3.0,2025-10-21 04:34:20,M022,False
+232,Knives Out,Thriller,English,2019,5.0,2025-10-21 16:48:01,M124,False
+234,Dangal,Drama,Hindi,2016,5.0,2024-11-20 17:27:35,M003,False
+234,Gone Girl,Thriller,English,2014,4.0,2024-11-28 09:39:22,M123,False
+235,3 Idiots,Comedy,Hindi,2009,4.0,2025-10-30 22:56:05,M001,True
+235,Brochevarevarura,Comedy,Telugu,2019,4.0,2025-11-16 18:10:39,M079,False
+235,The Shawshank Redemption,Drama,English,1994,5.0,2025-12-02 23:29:51,M119,False
+237,3 Idiots,Comedy,Hindi,2009,4.5,2025-11-17 17:58:18,M001,True
+237,Android Kunjappan Version 5.25,Sci-Fi,Malayalam,2019,3.0,2025-11-30 17:45:35,M107,False
+238,Master,Action,Tamil,2021,3.0,2025-02-06 03:35:55,M042,False
+238,Barfi!,Romance,Hindi,2012,5.0,2025-02-13 04:00:15,M012,False
+239,Enthiran,Sci-Fi,Tamil,2010,2.5,2025-04-24 11:45:53,M044,False
+239,Kavaludaari,Thriller,Kannada,2019,4.0,2025-05-05 03:12:18,M094,False
+239,Vikram,Action,Tamil,2022,4.0,2025-05-07 19:52:55,M041,False
+240,Gone Girl,Thriller,English,2014,3.5,2025-11-25 12:07:46,M123,False
+240,Queen,Comedy,Hindi,2013,4.0,2025-12-08 20:13:52,M008,False
+242,Brochevarevarura,Comedy,Telugu,2019,4.0,2025-10-26 21:11:45,M079,False
+242,Knives Out,Thriller,English,2019,3.0,2025-11-14 22:44:59,M124,False
+242,Kaithi,Action,Tamil,2019,5.0,2025-12-08 18:07:03,M043,False
+244,KGF,Action,Kannada,2018,3.0,2025-10-07 03:13:28,M087,False
+244,Rangasthalam,Drama,Telugu,2018,2.0,2025-10-11 01:07:02,M075,False
+244,RRR,Action,Telugu,2022,3.0,2025-11-18 06:22:13,M065,False
+245,2.0,Sci-Fi,Tamil,2018,3.0,2024-12-15 19:20:57,M045,False
+245,Athadu,Action,Telugu,2005,4.0,2024-12-24 17:57:46,M068,False
+245,Kumbalangi Nights,Drama,Malayalam,2019,4.0,2025-01-23 11:50:22,M101,False
+247,Android Kunjappan Version 5.25,Sci-Fi,Malayalam,2019,2.5,2025-08-27 08:27:36,M107,False
+247,Asuran,Drama,Tamil,2019,3.5,2025-11-12 11:54:42,M051,False
+248,Munna Bhai M.B.B.S.,Comedy,Hindi,2003,3.5,2025-08-09 12:15:25,M016,False
+248,Athadu,Action,Telugu,2005,4.5,2025-08-29 07:49:39,M068,False
+248,Magadheera,Action,Telugu,2009,5.0,2025-09-02 06:55:34,M067,False
+249,Vinnaithaandi Varuvaayaa,Romance,Tamil,2010,3.0,2025-08-27 00:18:54,M058,False
+249,Queen,Comedy,Hindi,2013,2.5,2025-09-01 02:36:16,M008,False
+252,Queen,Comedy,Hindi,2013,2.0,2025-09-27 06:34:15,M008,False
+252,Brochevarevarura,Comedy,Telugu,2019,2.0,2025-10-30 13:07:10,M079,False
+252,PK,Comedy,Hindi,2014,2.0,2025-11-22 10:09:34,M009,False
+253,Thani Oruvan,Thriller,Tamil,2015,3.5,2024-11-01 01:44:10,M060,False
+253,RRR,Action,Telugu,2022,4.0,2024-12-23 18:06:16,M065,False
+253,Mungaru Male,Romance,Kannada,2006,4.0,2024-12-24 00:59:52,M097,False
+254,Barfi!,Romance,Hindi,2012,5.0,2025-01-12 12:40:55,M012,False
+254,Gone Girl,Thriller,English,2014,4.0,2025-01-16 21:24:31,M123,False
+255,Brochevarevarura,Comedy,Telugu,2019,4.5,2024-09-21 02:33:56,M079,False
+255,Dear Comrade,Romance,Telugu,2019,4.0,2024-09-26 11:51:51,M072,False
+258,Queen,Comedy,Hindi,2013,3.5,2025-04-14 19:36:26,M008,False
+258,Vikram,Action,Tamil,2022,4.5,2025-04-15 11:34:30,M041,False
+259,Barfi!,Romance,Hindi,2012,3.5,2025-10-03 00:43:45,M012,False
+259,Drishyam,Thriller,Hindi,2015,3.0,2025-10-10 02:54:27,M005,False
+259,Blade Runner 2049,Sci-Fi,English,2017,4.5,2025-12-01 00:35:58,M111,False
+262,Superbad,Comedy,English,2007,4.5,2024-11-30 07:34:43,M126,False
+262,RRR,Action,Telugu,2022,3.5,2024-11-30 22:31:58,M065,False
+262,Krrish,Sci-Fi,Hindi,2006,5.0,2025-02-08 11:45:19,M027,False
+263,Theri,Action,Tamil,2016,4.0,2025-10-17 22:51:57,M056,False
+263,Vinnaithaandi Varuvaayaa,Romance,Tamil,2010,4.5,2025-11-10 09:29:45,M058,False
+263,KGF,Action,Kannada,2018,4.5,2025-11-27 03:58:59,M087,True
+266,Manjummel Boys,Thriller,Malayalam,2024,4.5,2025-11-11 10:49:25,M104,False
+266,Pushpa: The Rise,Action,Telugu,2021,3.0,2025-11-20 06:38:15,M066,False
+266,3 Idiots,Comedy,Hindi,2009,2.5,2025-11-22 12:06:33,M001,False
+267,Gone Girl,Thriller,English,2014,4.5,2025-08-14 01:11:22,M123,False
+267,Soorarai Pottru,Drama,Tamil,2020,3.5,2025-08-18 18:13:13,M052,False
+267,Drishyam,Thriller,Hindi,2015,3.5,2025-08-23 13:45:42,M005,False
+268,Mersal,Action,Tamil,2017,3.5,2025-01-06 19:26:36,M055,False
+268,Andhadhun,Thriller,Hindi,2018,4.0,2025-03-10 11:12:38,M002,True
+269,Pathaan,Action,Hindi,2023,4.0,2025-08-25 04:14:30,M033,False
+269,The Martian,Sci-Fi,English,2015,4.0,2025-09-07 15:00:47,M112,False
+269,Bhool Bhulaiyaa,Comedy,Hindi,2007,2.5,2025-09-20 10:20:43,M036,False
+270,Brochevarevarura,Comedy,Telugu,2019,4.0,2025-06-15 08:50:15,M079,False
+270,Drishyam,Thriller,Hindi,2015,4.0,2025-06-23 21:24:00,M005,True
+270,Munna Bhai M.B.B.S.,Comedy,Hindi,2003,4.0,2025-07-12 02:57:58,M016,False
+277,Enthiran,Sci-Fi,Tamil,2010,2.5,2024-11-09 07:29:45,M044,False
+277,RRR,Action,Telugu,2022,5.0,2024-11-23 09:59:02,M065,False
+277,Barfi!,Romance,Hindi,2012,4.5,2025-01-20 04:53:56,M012,False
+278,Jawan,Action,Hindi,2023,2.5,2025-05-17 21:53:24,M034,False
+278,Ulidavaru Kandanthe,Drama,Kannada,2014,3.5,2025-06-01 21:57:20,M095,False
+278,Asuran,Drama,Tamil,2019,2.5,2025-06-25 05:04:26,M051,False
+282,Evaru,Thriller,Telugu,2019,4.5,2025-01-17 12:26:20,M081,False
+282,F2,Comedy,Telugu,2019,3.5,2025-01-29 23:13:05,M078,False
+282,U Turn,Thriller,Kannada,2016,5.0,2025-02-24 13:20:15,M092,False
+283,Super Deluxe,Drama,Tamil,2019,3.5,2025-09-30 15:27:52,M048,False
+283,Kahaani,Thriller,Hindi,2012,5.0,2025-10-23 10:58:44,M018,False
+285,Joji,Thriller,Malayalam,2021,4.0,2024-12-30 01:25:22,M103,False
+285,Ra.One,Sci-Fi,Hindi,2011,4.0,2025-01-02 10:44:07,M028,False
+285,Rangasthalam,Drama,Telugu,2018,3.0,2025-01-21 07:23:03,M075,False
+286,777 Charlie,Drama,Kannada,2022,4.5,2024-11-13 08:48:49,M096,False
+286,The Hangover,Comedy,English,2009,3.0,2024-12-07 05:04:01,M125,False
+286,Barfi!,Romance,Hindi,2012,4.0,2024-12-13 19:34:26,M012,False
+287,Athadu,Action,Telugu,2005,3.5,2024-11-09 00:49:51,M068,False
+287,Asuran,Drama,Tamil,2019,4.5,2024-11-11 11:10:54,M051,False
+287,Andhadhun,Thriller,Hindi,2018,3.5,2024-11-16 16:24:31,M002,True
+290,Se7en,Thriller,English,1995,2.5,2025-08-19 13:34:00,M121,False
+290,Dangal,Drama,Hindi,2016,2.0,2025-08-20 04:42:51,M003,True
+290,2.0,Sci-Fi,Tamil,2018,3.5,2025-09-07 13:17:42,M045,False
+291,Barfi!,Romance,Hindi,2012,5.0,2025-09-13 18:47:32,M012,False
+291,Jawan,Action,Hindi,2023,5.0,2025-09-30 17:07:45,M034,False
+292,U Turn,Thriller,Kannada,2016,3.0,2024-09-28 09:33:58,M092,False
+292,Knives Out,Thriller,English,2019,4.5,2024-10-03 02:55:07,M124,False
+292,Barfi!,Romance,Hindi,2012,5.0,2024-10-05 20:07:22,M012,False
+296,Magadheera,Action,Telugu,2009,3.5,2025-09-16 15:36:59,M067,False
+296,The Shawshank Redemption,Drama,English,1994,5.0,2025-10-26 16:29:21,M119,False
+296,Aditya 369,Sci-Fi,Telugu,1991,3.5,2025-10-29 10:31:04,M084,False
+297,Lucia,Thriller,Kannada,2013,4.0,2025-08-29 00:38:05,M091,False
+297,Queen,Comedy,Hindi,2013,4.0,2025-10-10 18:16:22,M008,False
+298,Superbad,Comedy,English,2007,4.0,2025-11-04 10:12:10,M126,False
+298,PK,Comedy,Hindi,2014,5.0,2025-12-03 17:13:11,M009,False
+299,Jab We Met,Romance,Hindi,2007,3.0,2025-08-31 04:08:35,M022,False
+299,Barfi!,Romance,Hindi,2012,5.0,2025-09-26 15:34:58,M012,False
+299,Enthiran,Sci-Fi,Tamil,2010,3.0,2025-10-12 10:12:48,M044,False
+301,The Matrix,Sci-Fi,English,1999,2.5,2024-10-23 04:34:43,M110,False
+301,Bhool Bhulaiyaa,Comedy,Hindi,2007,4.0,2024-10-30 03:04:31,M036,False
+302,PK,Comedy,Hindi,2014,5.0,2024-10-21 16:24:08,M009,False
+302,Knives Out,Thriller,English,2019,5.0,2024-10-24 20:19:09,M124,False
+302,Charlie,Romance,Malayalam,2015,4.0,2024-11-06 06:35:18,M100,False
+306,Lucifer,Action,Malayalam,2019,3.5,2025-10-15 09:23:40,M106,False
+306,Pathaan,Action,Hindi,2023,4.5,2025-10-27 00:24:56,M033,False
+306,Kshanam,Thriller,Telugu,2016,4.5,2025-11-04 04:36:55,M082,False
+308,Joji,Thriller,Malayalam,2021,4.0,2025-05-27 18:39:17,M103,False
+308,Knives Out,Thriller,English,2019,4.0,2025-06-06 22:10:56,M124,False
+309,Kavaludaari,Thriller,Kannada,2019,5.0,2025-08-22 00:41:15,M094,False
+309,Theri,Action,Tamil,2016,3.0,2025-09-07 16:18:33,M056,False
+310,KGF,Action,Kannada,2018,3.5,2025-08-06 22:21:56,M087,False
+310,Anniyan,Thriller,Tamil,2005,3.5,2025-08-14 16:16:21,M063,False
+313,Kaithi,Action,Tamil,2019,3.0,2024-11-20 05:37:02,M043,False
+313,Brochevarevarura,Comedy,Telugu,2019,4.5,2024-12-02 02:37:07,M079,False
+315,Brochevarevarura,Comedy,Telugu,2019,2.5,2025-04-26 16:14:42,M079,False
+315,Zindagi Na Milegi Dobara,Drama,Hindi,2011,3.0,2025-04-26 22:38:38,M010,False
+315,Kantara,Action,Kannada,2022,3.0,2025-05-30 01:17:11,M088,False
+316,Barfi!,Romance,Hindi,2012,5.0,2025-01-21 18:15:56,M012,False
+316,Kaithi,Action,Tamil,2019,4.0,2025-02-01 15:35:26,M043,False
+318,Mad Max: Fury Road,Action,English,2015,4.0,2025-10-11 15:37:19,M114,False
+318,Rockstar,Romance,Hindi,2011,4.5,2025-10-13 06:55:41,M024,False
+318,PK,Comedy,Hindi,2014,5.0,2025-10-18 12:10:52,M009,False
+321,The Hangover,Comedy,English,2009,3.5,2025-09-17 14:04:06,M125,False
+321,Charlie,Romance,Malayalam,2015,4.5,2025-09-20 10:35:34,M100,False
+321,U Turn,Thriller,Kannada,2016,5.0,2025-10-05 05:10:55,M092,False
+322,Athadu,Action,Telugu,2005,4.5,2024-10-31 00:39:56,M068,False
+322,Drishyam,Thriller,Hindi,2015,4.0,2024-11-06 15:22:06,M005,False
+325,Charlie,Romance,Malayalam,2015,5.0,2025-06-27 01:45:29,M100,False
+325,The Notebook,Romance,English,2004,5.0,2025-07-12 21:23:53,M118,False
+325,Knives Out,Thriller,English,2019,4.0,2025-07-26 17:01:41,M124,False
+327,Magadheera,Action,Telugu,2009,4.5,2025-12-05 07:45:01,M067,False
+327,Mad Max: Fury Road,Action,English,2015,3.5,2025-12-08 00:33:01,M114,False
+327,Soorarai Pottru,Drama,Tamil,2020,5.0,2025-12-17 19:46:13,M052,False
+328,Thani Oruvan,Thriller,Tamil,2015,5.0,2025-10-29 02:05:03,M060,False
+328,3 Idiots,Comedy,Hindi,2009,3.5,2025-11-15 06:30:29,M001,False
+328,Article 15,Drama,Hindi,2019,5.0,2025-11-15 22:37:08,M040,False
+331,Soorarai Pottru,Drama,Tamil,2020,2.5,2025-05-20 16:50:14,M052,False
+331,Charlie,Romance,Malayalam,2015,3.5,2025-09-12 18:18:33,M100,False
+331,Jawan,Action,Hindi,2023,2.5,2025-09-18 14:11:24,M034,False
+332,Athadu,Action,Telugu,2005,2.5,2025-01-01 21:20:32,M068,False
+332,PK,Comedy,Hindi,2014,4.0,2025-02-16 22:17:15,M009,False
+334,PK,Comedy,Hindi,2014,5.0,2025-10-03 20:54:28,M009,False
+334,F2,Comedy,Telugu,2019,5.0,2025-10-29 15:41:59,M078,False
+334,Dangal,Drama,Hindi,2016,4.0,2025-11-01 12:30:16,M003,True
+335,Lucifer,Action,Malayalam,2019,4.0,2025-09-05 16:34:22,M106,False
+335,Andhadhun,Thriller,Hindi,2018,3.0,2025-10-02 04:47:40,M002,True
+336,Charlie,Romance,Malayalam,2015,4.0,2025-09-14 00:30:09,M100,False
+336,Aditya 369,Sci-Fi,Telugu,1991,3.0,2025-09-15 09:07:31,M084,False
+338,Dear Comrade,Romance,Telugu,2019,3.5,2024-10-05 13:44:12,M072,False
+338,Soorarai Pottru,Drama,Tamil,2020,2.0,2024-10-24 02:30:59,M052,False
+339,U Turn,Thriller,Kannada,2016,4.5,2025-08-30 12:13:46,M092,False
+339,Android Kunjappan Version 5.25,Sci-Fi,Malayalam,2019,2.5,2025-09-03 00:11:49,M107,False
+339,Stree,Comedy,Hindi,2018,3.5,2025-09-21 02:47:14,M038,False
+340,Vikram,Action,Tamil,2022,3.0,2024-12-28 06:40:08,M041,False
+340,Dhoom 2,Action,Hindi,2006,4.5,2025-01-11 06:43:56,M031,False
+340,The Dark Knight,Action,English,2008,3.5,2025-01-21 23:10:16,M113,False
+341,Charlie,Romance,Malayalam,2015,3.5,2025-10-11 07:33:09,M100,False
+341,Brochevarevarura,Comedy,Telugu,2019,4.0,2025-10-20 18:21:14,M079,False
+342,Kshanam,Thriller,Telugu,2016,2.5,2025-10-09 08:53:27,M082,False
+342,U Turn,Thriller,Kannada,2016,4.5,2025-10-12 16:50:00,M092,False
+342,War,Action,Hindi,2019,4.0,2025-10-14 16:40:18,M032,False
+343,Pushpa: The Rise,Action,Telugu,2021,4.0,2025-09-15 02:29:40,M066,False
+343,Titanic,Romance,English,1997,5.0,2025-09-25 23:58:22,M116,False
+343,Lucia,Thriller,Kannada,2013,5.0,2025-10-10 00:47:57,M091,False
+344,Jawan,Action,Hindi,2023,3.5,2025-08-09 03:59:55,M034,False
+344,Jersey,Drama,Telugu,2019,4.0,2025-10-24 16:08:54,M073,False
+344,Brochevarevarura,Comedy,Telugu,2019,4.0,2025-11-07 18:21:22,M079,False
+345,Master,Action,Tamil,2021,5.0,2024-10-27 06:16:20,M042,False
+345,Dangal,Drama,Hindi,2016,5.0,2024-11-08 10:36:01,M003,False
+345,Charlie,Romance,Malayalam,2015,5.0,2024-11-12 18:55:17,M100,False
+350,Shutter Island,Thriller,English,2010,3.0,2025-10-15 15:50:33,M122,False
+350,Dil Chahta Hai,Comedy,Hindi,2001,3.5,2025-10-15 16:49:17,M013,False
+350,Queen,Comedy,Hindi,2013,3.5,2025-10-26 14:35:43,M008,False
+353,U Turn,Thriller,Kannada,2016,4.5,2025-08-27 14:12:30,M092,False
+353,Dil Chahta Hai,Comedy,Hindi,2001,3.5,2025-08-29 04:58:53,M013,False
+354,Asuran,Drama,Tamil,2019,3.5,2025-01-27 23:37:44,M051,False
+354,Taare Zameen Par,Drama,Hindi,2007,4.0,2025-02-13 16:01:09,M015,False
+354,U Turn,Thriller,Kannada,2016,4.5,2025-03-22 14:21:37,M092,False
+355,96,Romance,Tamil,2018,3.0,2024-12-18 13:13:27,M049,False
+355,PK,Comedy,Hindi,2014,5.0,2024-12-24 22:51:04,M009,False
+359,Queen,Comedy,Hindi,2013,4.5,2025-07-26 15:17:22,M008,False
+359,Aditya 369,Sci-Fi,Telugu,1991,3.5,2025-08-18 20:22:10,M084,False
+362,Ratsasan,Thriller,Tamil,2018,5.0,2024-09-20 13:01:50,M053,False
+362,Titanic,Romance,English,1997,3.5,2024-10-06 09:20:58,M116,False
+362,Vinnaithaandi Varuvaayaa,Romance,Tamil,2010,4.0,2024-10-20 10:28:18,M058,False
+364,The Shawshank Redemption,Drama,English,1994,4.0,2025-02-03 15:00:28,M119,False
+364,Knives Out,Thriller,English,2019,4.0,2025-05-02 12:53:45,M124,False
+366,Master,Action,Tamil,2021,4.5,2025-09-03 15:27:12,M042,False
+366,Kshanam,Thriller,Telugu,2016,4.0,2025-09-22 16:53:23,M082,False
+366,U Turn,Thriller,Kannada,2016,5.0,2025-09-28 16:42:59,M092,False
+368,Knives Out,Thriller,English,2019,3.0,2024-12-16 12:57:58,M124,False
+368,Evaru,Thriller,Telugu,2019,3.5,2024-12-17 05:05:25,M081,False
+368,Inception,Sci-Fi,English,2010,3.5,2025-01-07 08:08:00,M108,False
+370,Veer-Zaara,Romance,Hindi,2004,3.5,2025-01-31 06:56:12,M025,False
+370,Pariyerum Perumal,Drama,Tamil,2018,4.0,2025-02-09 15:26:12,M054,False
+370,Maanagaram,Thriller,Tamil,2017,4.0,2025-04-08 18:55:44,M059,False
+372,Premam,Romance,Malayalam,2015,5.0,2024-07-21 03:23:45,M099,False
+372,Bajrangi Bhaijaan,Drama,Hindi,2015,5.0,2024-08-06 07:17:41,M029,False
+372,Soorarai Pottru,Drama,Tamil,2020,3.0,2024-08-20 23:03:51,M052,False
+373,Magadheera,Action,Telugu,2009,5.0,2025-05-16 10:36:01,M067,False
+373,Mad Max: Fury Road,Action,English,2015,3.0,2025-05-27 11:24:50,M114,False
+373,Gladiator,Action,English,2000,1.0,2025-05-30 00:15:30,M115,False
+374,U Turn,Thriller,Kannada,2016,4.5,2025-06-20 23:28:31,M092,False
+374,A Wednesday,Thriller,Hindi,2008,5.0,2025-07-01 11:09:59,M021,False
+377,Agent Sai Srinivasa Athreya,Thriller,Telugu,2019,5.0,2025-10-27 17:08:51,M083,False
+377,Manjummel Boys,Thriller,Malayalam,2024,5.0,2025-10-27 23:05:44,M104,False
+377,The Hangover,Comedy,English,2009,4.5,2025-11-02 18:50:59,M125,False
+378,Pathaan,Action,Hindi,2023,3.5,2025-04-02 21:22:35,M033,False
+378,Barfi!,Romance,Hindi,2012,5.0,2025-04-07 00:35:22,M012,False
+378,Ala Vaikunthapurramuloo,Comedy,Telugu,2020,5.0,2025-04-15 03:17:21,M076,False
+379,The Hangover,Comedy,English,2009,4.5,2025-09-27 22:36:06,M125,False
+379,Bhool Bhulaiyaa,Comedy,Hindi,2007,4.0,2025-10-30 05:10:05,M036,False
+379,Knives Out,Thriller,English,2019,5.0,2025-11-16 22:53:11,M124,False
+380,La La Land,Romance,English,2016,3.0,2025-07-23 15:50:42,M117,False
+380,Lucifer,Action,Malayalam,2019,4.0,2025-09-13 02:05:06,M106,False
+381,Vinnaithaandi Varuvaayaa,Romance,Tamil,2010,3.0,2024-10-31 13:30:03,M058,False
+381,Agent Sai Srinivasa Athreya,Thriller,Telugu,2019,4.5,2025-01-27 04:50:08,M083,False
+382,Article 15,Drama,Hindi,2019,2.5,2025-04-10 13:21:50,M040,False
+382,Kaithi,Action,Tamil,2019,5.0,2025-04-21 17:40:24,M043,False
+383,Dil Chahta Hai,Comedy,Hindi,2001,4.5,2025-02-10 04:04:34,M013,False
+383,Pathaan,Action,Hindi,2023,5.0,2025-02-26 04:20:01,M033,False
+383,U Turn,Thriller,Kannada,2016,4.5,2025-03-01 15:16:41,M092,False
+385,Theri,Action,Tamil,2016,4.0,2024-06-27 18:10:34,M056,False
+385,777 Charlie,Drama,Kannada,2022,4.5,2024-07-04 07:40:50,M096,False
+385,Barfi!,Romance,Hindi,2012,4.5,2024-07-26 22:52:29,M012,False
+387,Joji,Thriller,Malayalam,2021,4.5,2025-08-20 11:02:41,M103,False
+387,Rang De Basanti,Drama,Hindi,2006,5.0,2025-08-28 08:14:36,M014,False
+388,Asuran,Drama,Tamil,2019,2.0,2025-05-23 06:57:44,M051,False
+388,Gladiator,Action,English,2000,3.0,2025-06-09 22:19:27,M115,False
+388,Athadu,Action,Telugu,2005,4.0,2025-06-21 13:49:56,M068,False
+389,Enthiran,Sci-Fi,Tamil,2010,2.5,2024-10-15 13:38:08,M044,False
+389,Inception,Sci-Fi,English,2010,3.0,2024-11-18 17:11:34,M108,False
+390,Bhool Bhulaiyaa,Comedy,Hindi,2007,4.5,2025-07-24 20:13:24,M036,False
+390,Barfi!,Romance,Hindi,2012,4.5,2025-08-03 06:35:15,M012,False
+391,Jersey,Drama,Telugu,2019,5.0,2025-10-07 12:37:19,M073,False
+391,Maheshinte Prathikaaram,Comedy,Malayalam,2016,5.0,2025-10-14 11:30:25,M102,False
+391,Drishyam,Thriller,Hindi,2015,2.5,2025-10-14 15:30:08,M005,False
+392,Kantara,Action,Kannada,2022,4.0,2025-11-07 16:52:49,M088,False
+392,Munna Bhai M.B.B.S.,Comedy,Hindi,2003,4.5,2025-11-10 12:36:11,M016,False
+395,Bajrangi Bhaijaan,Drama,Hindi,2015,5.0,2025-02-02 10:51:02,M029,False
+395,Dhoom 2,Action,Hindi,2006,4.0,2025-03-03 23:14:41,M031,False
+395,Queen,Comedy,Hindi,2013,3.5,2025-05-03 23:10:06,M008,False
+396,Aditya 369,Sci-Fi,Telugu,1991,4.0,2024-11-02 23:03:33,M084,False
+396,Baahubali,Action,Telugu,2015,3.0,2024-11-11 03:59:20,M064,True
+397,Arjun Reddy,Romance,Telugu,2017,4.0,2024-07-17 12:33:19,M069,False
+397,Ulidavaru Kandanthe,Drama,Kannada,2014,3.5,2024-08-07 13:05:23,M095,False
+397,Joji,Thriller,Malayalam,2021,3.0,2024-08-10 10:40:49,M103,False
+397,Vikram,Action,Tamil,2022,5.0,2024-08-27 20:26:00,M041,False
+398,Maanagaram,Thriller,Tamil,2017,3.0,2025-10-05 02:13:36,M059,False
+398,96,Romance,Tamil,2018,2.0,2025-11-03 23:24:24,M049,False
+398,Shutter Island,Thriller,English,2010,2.5,2025-11-13 21:04:02,M122,False
+399,Mahanati,Drama,Telugu,2018,4.0,2024-09-23 03:47:39,M074,False
+399,Bajrangi Bhaijaan,Drama,Hindi,2015,2.5,2024-10-10 23:36:01,M029,False
+401,Andhadhun,Thriller,Hindi,2018,4.0,2025-03-16 04:52:52,M002,False
+401,The Dark Knight,Action,English,2008,3.5,2025-04-08 18:15:13,M113,False
+401,Love Today,Comedy,Tamil,2022,3.5,2025-04-12 03:29:35,M061,False
+405,Theri,Action,Tamil,2016,2.5,2024-10-27 08:13:20,M056,False
+405,Rockstar,Romance,Hindi,2011,5.0,2024-11-29 04:50:18,M024,False
+405,Article 15,Drama,Hindi,2019,4.5,2024-11-30 19:00:22,M040,False
+407,Pushpa: The Rise,Action,Telugu,2021,3.5,2025-03-02 18:57:50,M066,False
+407,Sapta Sagaradaache Ello,Romance,Kannada,2023,3.5,2025-03-16 08:33:03,M098,False
+407,PK,Comedy,Hindi,2014,4.5,2025-05-05 02:17:46,M009,False
+408,Dil Chahta Hai,Comedy,Hindi,2001,3.5,2025-09-23 03:48:40,M013,False
+408,Pink,Drama,Hindi,2016,3.5,2025-09-25 12:09:06,M004,True
+408,Kshanam,Thriller,Telugu,2016,2.5,2025-10-05 05:21:55,M082,False
+409,Barfi!,Romance,Hindi,2012,4.5,2025-08-14 01:33:14,M012,False
+409,3 Idiots,Comedy,Hindi,2009,3.0,2025-09-02 23:50:24,M001,False
+409,Dangal,Drama,Hindi,2016,3.5,2025-10-08 17:10:11,M003,True
+410,Sapta Sagaradaache Ello,Romance,Kannada,2023,4.5,2025-11-27 11:08:27,M098,False
+410,Ala Vaikunthapurramuloo,Comedy,Telugu,2020,4.5,2025-12-09 22:46:30,M076,False
+412,Thani Oruvan,Thriller,Tamil,2015,5.0,2025-09-25 06:57:36,M060,False
+412,Dhoom 2,Action,Hindi,2006,5.0,2025-11-06 07:42:55,M031,False
+413,3 Idiots,Comedy,Hindi,2009,4.0,2025-04-19 22:27:30,M001,False
+413,Premam,Romance,Malayalam,2015,4.5,2025-04-30 12:43:43,M099,False
+414,Koi... Mil Gaya,Sci-Fi,Hindi,2003,4.5,2025-07-31 22:48:28,M026,False
+414,Jersey,Drama,Telugu,2019,3.5,2025-08-09 14:03:24,M073,False
+414,Magadheera,Action,Telugu,2009,4.0,2025-08-10 22:53:17,M067,False
+417,Magadheera,Action,Telugu,2009,5.0,2025-04-10 15:55:34,M067,False
+417,Barfi!,Romance,Hindi,2012,5.0,2025-05-24 06:57:52,M012,False
+420,The Dark Knight,Action,English,2008,4.5,2024-09-19 12:20:40,M113,False
+420,Theri,Action,Tamil,2016,4.5,2024-09-23 20:27:13,M056,False
+422,Koi... Mil Gaya,Sci-Fi,Hindi,2003,3.5,2025-07-25 21:19:42,M026,False
+422,Kaithi,Action,Tamil,2019,3.5,2025-08-01 08:29:38,M043,False
+423,Goodachari,Thriller,Telugu,2018,2.5,2025-04-18 11:54:39,M080,False
+423,Kumbalangi Nights,Drama,Malayalam,2019,3.5,2025-05-23 02:21:30,M101,False
+423,PK,Comedy,Hindi,2014,4.5,2025-05-26 04:26:43,M009,False
+426,The Hangover,Comedy,English,2009,3.5,2025-06-20 15:29:44,M125,False
+426,24,Sci-Fi,Tamil,2016,2.5,2025-06-20 22:26:50,M046,False
+426,Barfi!,Romance,Hindi,2012,5.0,2025-07-03 22:54:28,M012,False
+428,Theri,Action,Tamil,2016,4.5,2025-10-10 10:38:27,M056,False
+428,3 Idiots,Comedy,Hindi,2009,2.5,2025-10-14 03:08:43,M001,True
+430,Kahaani,Thriller,Hindi,2012,3.5,2025-07-03 18:32:10,M018,False
+430,Jawan,Action,Hindi,2023,4.0,2025-07-23 18:11:16,M034,False
+430,Barfi!,Romance,Hindi,2012,5.0,2025-07-27 19:48:21,M012,False
+431,Baahubali,Action,Telugu,2015,3.5,2024-08-14 10:06:40,M064,False
+431,Asuran,Drama,Tamil,2019,3.0,2024-08-18 16:32:15,M051,False
+431,Kantara,Action,Kannada,2022,3.5,2024-09-05 04:11:03,M088,False
+432,PK,Comedy,Hindi,2014,5.0,2025-10-02 09:06:13,M009,False
+432,Kavaludaari,Thriller,Kannada,2019,3.5,2025-10-14 05:47:47,M094,False
+432,Barfi!,Romance,Hindi,2012,4.5,2025-11-06 16:32:09,M012,False
+433,Agent Sai Srinivasa Athreya,Thriller,Telugu,2019,4.0,2024-11-29 02:14:32,M083,False
+433,Andhadhun,Thriller,Hindi,2018,3.5,2024-11-30 02:49:55,M002,True
+433,Ulidavaru Kandanthe,Drama,Kannada,2014,4.0,2024-12-01 00:22:28,M095,False
+434,Knives Out,Thriller,English,2019,5.0,2024-10-13 10:59:02,M124,False
+434,Ugramm,Action,Kannada,2014,4.0,2024-11-09 02:31:34,M089,False
+435,Jawan,Action,Hindi,2023,4.0,2024-08-10 02:28:12,M034,False
+435,PK,Comedy,Hindi,2014,5.0,2024-09-12 06:23:18,M009,False
+435,Agent Sai Srinivasa Athreya,Thriller,Telugu,2019,4.5,2024-10-06 13:15:04,M083,False
+436,Barfi!,Romance,Hindi,2012,4.5,2024-11-27 21:39:08,M012,False
+436,Charlie,Romance,Malayalam,2015,4.0,2025-01-15 10:20:56,M100,False
+437,Dhoom 2,Action,Hindi,2006,5.0,2025-09-01 14:44:30,M031,False
+437,Asuran,Drama,Tamil,2019,3.5,2025-10-01 07:56:09,M051,False
+437,Gully Boy,Drama,Hindi,2019,3.0,2025-10-04 20:06:09,M011,False
+438,Zindagi Na Milegi Dobara,Drama,Hindi,2011,4.5,2024-10-01 16:14:33,M010,False
+438,Jersey,Drama,Telugu,2019,4.5,2024-10-24 22:04:48,M073,False
+440,Dhoom 2,Action,Hindi,2006,5.0,2025-01-16 01:58:37,M031,False
+440,Tumbbad,Thriller,Hindi,2018,5.0,2025-02-06 08:42:24,M039,False
+440,Charlie,Romance,Malayalam,2015,3.0,2025-02-13 23:00:22,M100,False
+441,Android Kunjappan Version 5.25,Sci-Fi,Malayalam,2019,2.5,2024-11-23 09:04:28,M107,False
+441,Agent Sai Srinivasa Athreya,Thriller,Telugu,2019,4.5,2024-12-15 05:56:29,M083,False
+442,Charlie,Romance,Malayalam,2015,3.5,2025-01-27 04:41:08,M100,False
+442,Drishyam,Thriller,Hindi,2015,3.0,2025-02-09 02:28:54,M005,True
+442,Barfi!,Romance,Hindi,2012,5.0,2025-04-24 13:01:48,M012,False
+444,Ulidavaru Kandanthe,Drama,Kannada,2014,4.5,2025-01-01 18:20:49,M095,False
+444,Agent Sai Srinivasa Athreya,Thriller,Telugu,2019,5.0,2025-01-05 01:31:32,M083,False
+445,Brochevarevarura,Comedy,Telugu,2019,3.0,2025-03-04 23:41:30,M079,False
+445,The Notebook,Romance,English,2004,4.0,2025-03-10 15:40:15,M118,False
+445,Magadheera,Action,Telugu,2009,5.0,2025-03-28 20:27:48,M067,False
+448,Queen,Comedy,Hindi,2013,4.5,2024-11-02 19:01:04,M008,False
+448,Knives Out,Thriller,English,2019,5.0,2024-11-21 16:22:18,M124,False
+448,Barfi!,Romance,Hindi,2012,5.0,2024-11-27 14:28:36,M012,False
+449,Bhool Bhulaiyaa,Comedy,Hindi,2007,2.0,2025-05-18 14:37:32,M036,False
+449,Brochevarevarura,Comedy,Telugu,2019,3.0,2025-05-25 21:46:09,M079,False
+451,PK,Comedy,Hindi,2014,5.0,2025-09-11 19:53:32,M009,False
+451,Lucia,Thriller,Kannada,2013,5.0,2025-09-16 09:39:42,M091,False
+452,Dangal,Drama,Hindi,2016,4.0,2024-08-14 15:13:59,M003,True
+452,Kaithi,Action,Tamil,2019,4.5,2024-09-25 05:59:33,M043,False
+452,Mungaru Male,Romance,Kannada,2006,3.0,2024-10-11 11:28:49,M097,False
+453,RRR,Action,Telugu,2022,2.5,2024-11-22 15:28:46,M065,False
+453,Mersal,Action,Tamil,2017,2.5,2024-12-24 08:07:10,M055,False
+454,Gladiator,Action,English,2000,3.5,2025-08-21 20:35:03,M115,False
+454,Superbad,Comedy,English,2007,3.0,2025-10-08 09:23:20,M126,False
+454,Maanagaram,Thriller,Tamil,2017,3.5,2025-10-17 20:04:40,M059,False
+455,Kolamaavu Kokila,Comedy,Tamil,2018,2.5,2025-10-27 04:18:19,M062,False
+455,Bhool Bhulaiyaa,Comedy,Hindi,2007,3.5,2025-10-30 05:46:57,M036,False
+455,Asuran,Drama,Tamil,2019,3.5,2025-10-31 11:16:58,M051,False
+456,Drishyam,Thriller,Hindi,2015,4.0,2025-09-06 00:50:56,M005,False
+456,Kumbalangi Nights,Drama,Malayalam,2019,3.0,2025-09-12 15:49:49,M101,False
+456,Gully Boy,Drama,Hindi,2019,3.0,2025-09-17 23:22:32,M011,False
+458,Kahaani,Thriller,Hindi,2012,3.5,2024-12-08 19:25:30,M018,False
+458,Sita Ramam,Romance,Telugu,2022,4.5,2024-12-19 19:44:35,M070,False
+458,Article 15,Drama,Hindi,2019,3.0,2024-12-29 21:33:33,M040,False
+459,Dil Chahta Hai,Comedy,Hindi,2001,5.0,2025-06-17 11:31:36,M013,False
+459,Charlie,Romance,Malayalam,2015,4.0,2025-06-21 06:50:07,M100,False
+462,Ra.One,Sci-Fi,Hindi,2011,4.5,2024-07-15 16:36:29,M028,False
+462,Gone Girl,Thriller,English,2014,4.5,2024-07-27 23:27:56,M123,False
+462,Rockstar,Romance,Hindi,2011,4.0,2024-08-15 15:33:33,M024,False
+463,Super Deluxe,Drama,Tamil,2019,4.0,2025-09-30 14:41:41,M048,False
+463,Hera Pheri,Comedy,Hindi,2000,5.0,2025-10-02 10:33:33,M037,False
+463,Andhadhun,Thriller,Hindi,2018,5.0,2025-10-22 04:18:24,M002,False
+465,Aditya 369,Sci-Fi,Telugu,1991,3.5,2024-09-30 08:02:34,M084,False
+465,Dilwale Dulhania Le Jayenge,Romance,Hindi,1995,5.0,2024-10-08 06:28:13,M007,False
+465,Pathaan,Action,Hindi,2023,4.5,2024-10-11 00:22:34,M033,False
+467,U Turn,Thriller,Kannada,2016,3.5,2025-08-30 20:14:29,M092,False
+467,777 Charlie,Drama,Kannada,2022,4.5,2025-09-22 20:46:12,M096,False
+467,Kaithi,Action,Tamil,2019,4.0,2025-11-02 05:47:09,M043,False
+470,The Dark Knight,Action,English,2008,4.0,2025-05-11 16:21:30,M113,False
+470,Brochevarevarura,Comedy,Telugu,2019,3.5,2025-06-01 11:37:22,M079,False
+471,Vinnaithaandi Varuvaayaa,Romance,Tamil,2010,3.5,2024-11-17 02:20:01,M058,False
+471,Brochevarevarura,Comedy,Telugu,2019,3.5,2024-12-10 11:51:16,M079,False
+471,Sholay,Action,Hindi,1975,3.5,2024-12-17 23:41:13,M030,False
+472,War,Action,Hindi,2019,3.5,2025-08-11 05:18:34,M032,False
+472,Manjummel Boys,Thriller,Malayalam,2024,3.5,2025-08-18 23:24:19,M104,False
+472,Bajrangi Bhaijaan,Drama,Hindi,2015,2.5,2025-10-02 18:00:41,M029,False
+473,Dhoom 2,Action,Hindi,2006,5.0,2025-02-17 00:54:43,M031,False
+473,Manjummel Boys,Thriller,Malayalam,2024,5.0,2025-02-26 22:33:13,M104,False
+474,Enthiran,Sci-Fi,Tamil,2010,3.5,2024-11-17 00:01:37,M044,False
+474,Baahubali,Action,Telugu,2015,4.0,2025-01-31 18:53:06,M064,True
+474,Geetha Govindam,Romance,Telugu,2018,3.0,2025-02-10 16:06:36,M071,False
+477,Brochevarevarura,Comedy,Telugu,2019,2.5,2024-12-21 09:22:10,M079,False
+477,Rangitaranga,Thriller,Kannada,2015,3.5,2025-01-16 16:28:06,M093,False
+477,Interstellar,Sci-Fi,English,2014,2.0,2025-01-17 02:39:14,M109,False
+479,Veer-Zaara,Romance,Hindi,2004,3.0,2025-09-07 03:55:02,M025,False
+479,Special 26,Thriller,Hindi,2013,3.5,2025-09-19 20:04:58,M020,False
+480,Soorarai Pottru,Drama,Tamil,2020,5.0,2025-08-08 11:30:47,M052,False
+480,Barfi!,Romance,Hindi,2012,5.0,2025-08-20 00:47:27,M012,False
+480,Uri: The Surgical Strike,Action,Hindi,2019,4.5,2025-09-27 08:58:15,M035,False
+482,Titanic,Romance,English,1997,3.5,2025-07-16 21:58:54,M116,False
+482,Oke Oka Jeevitham,Sci-Fi,Telugu,2022,3.0,2025-08-25 02:40:46,M085,False
+482,Magadheera,Action,Telugu,2009,5.0,2025-09-05 18:15:29,M067,False
+483,Master,Action,Tamil,2021,4.5,2025-09-21 16:15:26,M042,False
+483,Forrest Gump,Drama,English,1994,4.0,2025-10-23 19:34:17,M120,False
+485,Jab We Met,Romance,Hindi,2007,3.0,2024-08-17 21:10:25,M022,False
+485,Queen,Comedy,Hindi,2013,4.5,2024-09-27 22:53:18,M008,False
+487,Love Today,Comedy,Tamil,2022,3.5,2025-01-14 16:59:24,M061,False
+487,Pathaan,Action,Hindi,2023,3.5,2025-01-26 15:54:16,M033,False
+487,Maheshinte Prathikaaram,Comedy,Malayalam,2016,4.5,2025-04-21 05:50:52,M102,False
+488,Enthiran,Sci-Fi,Tamil,2010,4.0,2025-08-14 23:42:29,M044,False
+488,U Turn,Thriller,Kannada,2016,5.0,2025-08-17 16:46:45,M092,False
+488,Chak De! India,Drama,Hindi,2007,4.0,2025-08-20 18:10:13,M017,False
+489,Kaithi,Action,Tamil,2019,5.0,2025-09-30 21:04:07,M043,False
+489,Dangal,Drama,Hindi,2016,4.5,2025-10-13 19:49:22,M003,True
+490,Barfi!,Romance,Hindi,2012,5.0,2025-05-22 06:27:42,M012,False
+490,Andhadhun,Thriller,Hindi,2018,5.0,2025-06-23 20:09:36,M002,False
+490,Pelli Choopulu,Comedy,Telugu,2016,4.0,2025-07-02 05:24:56,M077,False
+493,Superbad,Comedy,English,2007,4.5,2025-09-09 01:16:00,M126,False
+493,Barfi!,Romance,Hindi,2012,4.5,2025-10-15 16:26:04,M012,False
+493,Asuran,Drama,Tamil,2019,3.5,2025-10-29 21:35:59,M051,False
+494,War,Action,Hindi,2019,3.0,2025-11-14 09:23:12,M032,False
+494,Andhadhun,Thriller,Hindi,2018,4.0,2025-11-23 18:44:35,M002,False
+496,U Turn,Thriller,Kannada,2016,5.0,2025-05-18 03:21:08,M092,False
+496,Knives Out,Thriller,English,2019,4.0,2025-05-21 04:12:32,M124,False
+496,Charlie,Romance,Malayalam,2015,5.0,2025-05-25 23:18:15,M100,False
+497,24,Sci-Fi,Tamil,2016,3.5,2024-08-13 18:31:00,M046,False
+497,Knives Out,Thriller,English,2019,3.0,2024-09-15 12:50:08,M124,False
+497,Dangal,Drama,Hindi,2016,4.5,2024-09-19 16:34:17,M003,False
+498,Munna Bhai M.B.B.S.,Comedy,Hindi,2003,4.0,2024-10-15 00:05:47,M016,False
+498,96,Romance,Tamil,2018,3.5,2024-10-31 10:39:08,M049,False
+498,Yeh Jawaani Hai Deewani,Romance,Hindi,2013,4.0,2024-12-13 04:21:29,M023,False

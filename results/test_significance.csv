@@ -1,0 +1,19 @@
+comparison,metric,estimate,ci_low,ci_high,share_boot_below_0
+Item CF - Item mean,RMSE (negative = first is better),-0.035176041168800354,-0.05620725006784904,-0.015393201559892808,1.0
+Item CF - Global mean,RMSE (negative = first is better),-0.11953660187029613,-0.14832771754028248,-0.090751344219749,1.0
+Item CF - Bias baseline,RMSE (negative = first is better),-0.0009403200231263842,-0.00426376595902245,0.0025415421889589864,0.6955
+User CF - Bias baseline,RMSE (negative = first is better),-0.0003480245696475537,-0.0012532250442632924,0.0005697940617590907,0.775
+SVD - Bias baseline,RMSE (negative = first is better),-0.0021618383033847888,-0.006628937414657299,0.002081495786050768,0.836
+SVD - Item CF,RMSE (negative = first is better),-0.0012215182802584046,-0.007109658866422108,0.004361370586098482,0.684
+Item CF + popularity (deployed) - Popularity,P@10 (positive = first is better),0.00035211267605633756,-0.003873239436619719,0.004577464788732394,0.4255
+Item CF + popularity (deployed) - Popularity,NDCG@10 (positive = first is better),-0.008056095906667112,-0.02546441326819069,0.009861895877865644,0.815
+Item CF - Popularity,P@10 (positive = first is better),-0.02746478873239437,-0.034859154929577474,-0.01936619718309859,1.0
+Item CF - Popularity,NDCG@10 (positive = first is better),-0.11841790167020162,-0.15295654012716386,-0.08533940873362324,1.0
+Item CF + popularity (deployed) - Item CF,P@10 (positive = first is better),0.027816901408450705,0.020774647887323944,0.03485915492957747,0.0
+Item CF + popularity (deployed) - Item CF,NDCG@10 (positive = first is better),0.1103618057635345,0.08668790711359856,0.1343708599777596,0.0
+SVD + popularity - Popularity,P@10 (positive = first is better),-3.9092360022012555e-19,-0.004234154929577465,0.004225352112676057,0.4965
+SVD + popularity - Popularity,NDCG@10 (positive = first is better),-0.006755455871401183,-0.024459769316156885,0.01157772580389685,0.7605
+Deployed + MMR/exposure (safe) - Item CF + popularity (deployed),P@10 (positive = first is better),-0.0021126760563380284,-0.005985915492957747,0.0014084507042253524,0.875
+Deployed + MMR/exposure (safe) - Item CF + popularity (deployed),NDCG@10 (positive = first is better),-0.0017491030650194817,-0.01150062104183649,0.007275689834321082,0.652
+Deployed + MMR/exposure (diverse) - Item CF + popularity (deployed),P@10 (positive = first is better),-0.004929577464788732,-0.01091549295774648,0.0010563380281690142,0.945
+Deployed + MMR/exposure (diverse) - Item CF + popularity (deployed),NDCG@10 (positive = first is better),-0.004839121830251865,-0.021548632432368566,0.011495344740558133,0.721

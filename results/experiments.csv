@@ -1,0 +1,30 @@
+exp_id,stage,model,settings,fit_on,eval_on,RMSE,MAE,P@10,R@10,Hit@10,Coverage@10,users_scored,notes
+E01,8,Global mean,-,train_core,val,0.8357755731718891,0.692666282199154,,,,,,Minimum standard for RMSE
+E02,8,User mean,-,train_core,val,0.7887590704410427,0.6476667327770269,,,,,,
+E03,8,Item mean,-,train_core,val,0.7417341503460644,0.6007839972815309,,,,,,Stage 1 criterion: CF must beat this
+E04,8,Bias baseline (mu+b_u+b_i),"lam_i=5, lam_u=10",train_core,val,0.6930538446090226,0.5582654427096562,,,,,,Strongest non-personalised rating baseline
+E05,8,Random recommender,mean of 50 seeds,train_core,val,,,0.0157443609022556,0.0875375939849623,0.1504511278195488,1.0,266.0,Floor for ranking metrics
+E06,8,Popularity (most rated),-,train_core,val,,,0.0586466165413533,0.343984962406015,0.4962406015037593,0.1507936507936507,266.0,Stage 1 criterion: CF must beat this
+E07,8,Top-rated (shrunk mean),m=10,train_core,val,,,0.0533834586466165,0.3117167919799498,0.4887218045112781,0.119047619047619,266.0,
+E08,8,"Item-based CF (adjusted cosine, residuals)","k=20, shrink=10 (untuned)",train_core,val,0.740435890362137,0.5904153024288206,0.0330827067669173,0.1845238095238095,0.3120300751879699,0.7857142857142857,266.0,First working module; tuned in Stage 9
+E09,8,Item-based CF + damping,"k=20, shrink=10, damp=1.0 (untuned)",train_core,val,0.6897424382110868,0.5563029536683449,0.0462406015037594,0.2672305764411028,0.4360902255639097,0.2619047619047619,266.0,"Fix for E08: damp in denominator; value is an assumption, tuned in Stage 9"
+E10,9,Bias baseline (tuned),"lam_i=2, lam_u=2",train_core,val,0.6896502392212206,0.550373484351049,0.0428571428571428,0.2590852130325815,0.4022556390977443,0.119047619047619,266.0,"Tuned on 2 rolling folds of train data; fold 2 = this validation set, so slightly optimistic"
+E11,9,Item-based CF (tuned),"k=10, shrink=500, damp=0.1",train_core,val,0.688782401266226,0.5509551622519797,0.0454887218045112,0.2684837092731829,0.424812030075188,0.1587301587301587,266.0,"Tuned on 2 rolling folds of train data; fold 2 = this validation set, so slightly optimistic"
+E12,9,User-based CF (tuned),"sim=cosine, k=160, shrink=10, damp=20",train_core,val,0.6894290838363089,0.5503440199218361,0.0447368421052631,0.2672305764411028,0.4210526315789473,0.1349206349206349,266.0,"Tuned on 2 rolling folds of train data; fold 2 = this validation set, so slightly optimistic"
+E13,9,SVD / matrix factorisation (tuned),"n_factors=20, lr=0.01, reg=0.1, epochs=20",train_core,val,0.6858517800853728,0.5505461425614839,0.0432330827067669,0.2575187969924812,0.4060150375939849,0.1587301587301587,266.0,"Tuned on 2 rolling folds of train data; fold 2 = this validation set, so slightly optimistic; SVD RMSE over 5 seeds 0.6862 +/- 0.0011"
+E14,9,Item CF + popularity blend,"k=10, shrink=500, damp=0.1, alpha=2",train_core,val,0.688782401266226,0.5509551622519797,0.0721804511278195,0.4132205513784461,0.5864661654135338,0.1507936507936507,266.0,Ranking blend; rating predictions = base model. alpha chosen on folds by P@10
+E15,9,SVD + popularity blend,"n_factors=20, lr=0.01, reg=0.1, epochs=20, alpha=2",train_core,val,0.6858517800853728,0.5505461425614839,0.0718045112781955,0.4113408521303258,0.5827067669172933,0.1428571428571428,266.0,Ranking blend; rating predictions = base model. alpha chosen on folds by P@10
+E16,10,Global mean,-,train_full,test,0.8419691891848778,0.6957769354466422,,,,,,FINAL test evaluation (opened once)
+E17,10,User mean,-,train_full,test,0.8247558148849237,0.6696899049302575,,,,,,FINAL test evaluation (opened once)
+E18,10,Item mean,-,train_full,test,0.7576086284833821,0.6093601641460141,,,,,,FINAL test evaluation (opened once)
+E19,10,Bias baseline,tuned (Stage 9),train_full,test,0.7233729073377081,0.571915062385544,,,,,,FINAL test evaluation (opened once)
+E20,10,Random,-,train_full,test,,,0.017267605633802818,0.08484154929577464,0.16514084507042256,1.0,284.0,FINAL test evaluation (opened once)
+E21,10,Popularity,-,train_full,test,,,0.07922535211267606,0.4014084507042254,0.6443661971830986,0.15873015873015872,284.0,FINAL test evaluation (opened once)
+E22,10,Top-rated,-,train_full,test,,,0.05598591549295775,0.26819248826291076,0.47183098591549294,0.12698412698412698,284.0,FINAL test evaluation (opened once)
+E23,10,Item CF,tuned (Stage 9),train_full,test,0.7224325873145817,0.570472566912645,0.05176056338028169,0.25,0.4471830985915493,0.16666666666666666,284.0,FINAL test evaluation (opened once)
+E24,10,User CF,tuned (Stage 9),train_full,test,0.7230248827680607,0.571649770285831,0.05316901408450705,0.25410798122065725,0.45774647887323944,0.12698412698412698,284.0,FINAL test evaluation (opened once)
+E25,10,SVD,tuned (Stage 9),train_full,test,0.7212110690343233,0.5699883181790051,0.05,0.23884976525821594,0.4225352112676056,0.15079365079365079,284.0,FINAL test evaluation (opened once)
+E26,10,Item CF + popularity (deployed),tuned (Stage 9),train_full,test,0.7224325873145817,0.570472566912645,0.07957746478873239,0.40287558685446007,0.647887323943662,0.15873015873015872,284.0,FINAL test evaluation (opened once)
+E27,10,SVD + popularity,tuned (Stage 9),train_full,test,,,0.07922535211267606,0.40316901408450706,0.6408450704225352,0.16666666666666666,284.0,FINAL test evaluation (opened once)
+E28,10,Deployed + MMR/exposure (safe),tuned (Stage 9),train_full,test,,,0.07746478873239436,0.3961267605633803,0.6373239436619719,0.30952380952380953,284.0,FINAL test evaluation (opened once)
+E29,10,Deployed + MMR/exposure (diverse),tuned (Stage 9),train_full,test,,,0.07464788732394366,0.3884976525821596,0.6302816901408451,0.3968253968253968,284.0,FINAL test evaluation (opened once)

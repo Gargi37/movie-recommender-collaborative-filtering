@@ -1,0 +1,27 @@
+{
+  "bias": {
+    "lam_i": 2,
+    "lam_u": 2
+  },
+  "item_cf": {
+    "k": 10,
+    "shrink": 500,
+    "damp": 0.1
+  },
+  "user_cf": {
+    "sim": "cosine",
+    "k": 160,
+    "shrink": 10,
+    "damp": 20
+  },
+  "svd": {
+    "n_factors": 20,
+    "lr": 0.01,
+    "reg": 0.1,
+    "epochs": 20
+  },
+  "lam": {
+    "lam_i": 2,
+    "lam_u": 2
+  }
+}

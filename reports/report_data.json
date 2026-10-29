@@ -1,0 +1,1597 @@
+{
+ "facts": {
+  "raw_rows": 500,
+  "raw_users": 309,
+  "raw_titles": 8,
+  "raw_dup": 27,
+  "rows": 5000,
+  "cols": 9,
+  "users": 309,
+  "movies": 126,
+  "catalogue": 126,
+  "density": "12.8%",
+  "pu_min": 15,
+  "pu_med": 16,
+  "pu_max": 23,
+  "pu_mean": "16.2",
+  "pi_min": 10,
+  "pi_med": 25,
+  "pi_max": 244,
+  "r_mean": "3.90",
+  "r_med": "4.0",
+  "r_std": "0.84",
+  "r_ge4": "58.8%",
+  "orig": 473,
+  "orig_pct": "9.5%",
+  "gen": 4527,
+  "t_min": "2024-01-02",
+  "t_max": "2025-12-31",
+  "n_train_core": 3213,
+  "n_val": 816,
+  "n_train_full": 4029,
+  "n_test": 971,
+  "n_test_users": 284,
+  "n_tests": 56,
+  "alpha": 2,
+  "lam_i": 2,
+  "lam_u": 2,
+  "rmse_item_cf": "0.7224",
+  "rmse_item_mean": "0.7576",
+  "rmse_global": "0.8420",
+  "rmse_bias": "0.7234",
+  "rmse_svd": "0.7212",
+  "rmse_user_cf": "0.7230",
+  "d_itemmean": "-0.0352 (95% CI -0.0562 to -0.0154)",
+  "d_global": "-0.1195 (95% CI -0.1483 to -0.0908)",
+  "d_bias": "-0.0009 (95% CI -0.0043 to +0.0025)",
+  "p10_dep": "0.0796",
+  "p10_pop": "0.0792",
+  "p10_item": "0.0518",
+  "p10_rand": "0.0173",
+  "p10_safe": "0.0775",
+  "p10_div": "0.0746",
+  "d_dep_pop": "+0.0004 (95% CI -0.0039 to +0.0046)",
+  "d_item_pop": "-0.0275 (95% CI -0.0349 to -0.0194)",
+  "d_dep_item": "+0.0278 (95% CI +0.0208 to +0.0349)",
+  "d_safe_dep": "-0.0021 (95% CI -0.0060 to +0.0014)",
+  "cov_dep": "15.9%",
+  "cov_safe": "31.0%",
+  "cov_div": "39.7%",
+  "cov_pop": "15.9%",
+  "ild_dep": "0.818",
+  "ild_safe": "0.869",
+  "ild_div": "0.855",
+  "loss_safe": "2.7%",
+  "loss_div": "6.2%",
+  "hit_dep": "64.8%",
+  "hit_rand": "16.5%",
+  "tail_dep": 3,
+  "tail_safe": 17,
+  "tailshare_dep": "1.5%",
+  "gini_dep": "0.89",
+  "gini_safe": "0.88",
+  "align_dep": "0.483",
+  "align_rand": "0.495",
+  "svd_r2": "0.092",
+  "svd_null": "0.080",
+  "reg_cat": "53.2%",
+  "reg_rel": "47.1%",
+  "reg_dep": "56.8%",
+  "reg_safe": "59.4%",
+  "tel_dep": "28.0%",
+  "tel_cat": "18.3%",
+  "eng_dep": "6.8%",
+  "eng_cat": "15.1%",
+  "gap_act": "0.057",
+  "gap_taste": "0.159",
+  "gap_taste_bias": "0.164",
+  "lat_med": "3.0",
+  "lat_p95": "4.7",
+  "lat_n": 300,
+  "lat_safe_med": "4.0",
+  "lam_safe": 0.4,
+  "gam_safe": 0.0,
+  "lam_div": 0.6,
+  "gam_div": 0.5,
+  "orig_rmse": "0.918",
+  "gen_rmse": "0.687",
+  "orig_test_share": "13.4%",
+  "rmse_item_noorig": "0.6872",
+  "py": "3.12",
+  "taste_users": "36-82",
+  "lc": [
+   [
+    "Share of train_core used",
+    "Ratings",
+    "Bias baseline RMSE",
+    "Item CF RMSE",
+    "SVD RMSE",
+    "Item CF - Bias",
+    "SVD - Bias"
+   ],
+   [
+    "25%",
+    "701",
+    "0.7645",
+    "0.7646",
+    "0.7542",
+    "+0.0001",
+    "-0.0103"
+   ],
+   [
+    "50%",
+    "1573",
+    "0.7190",
+    "0.7192",
+    "0.7158",
+    "+0.0003",
+    "-0.0032"
+   ],
+   [
+    "75%",
+    "2281",
+    "0.6994",
+    "0.6993",
+    "0.6954",
+    "-0.0001",
+    "-0.0040"
+   ],
+   [
+    "100%",
+    "3213",
+    "0.6897",
+    "0.6888",
+    "0.6859",
+    "-0.0009",
+    "-0.0038"
+   ]
+  ],
+  "err_low": "+1.51",
+  "err_high": "-0.59"
+ },
+ "tables": {
+  "origin": {
+   "head": [
+    "Source",
+    "Rows",
+    "Share",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "Provided dataset.csv (kept)",
+     "473",
+     "9.5%",
+     "27 duplicate user-movie pairs dropped from the original 500; ratings and dates unchanged"
+    ],
+    [
+     "Synthetic (generated)",
+     "4527",
+     "90.5%",
+     "Created by src/generate_data.py (seed 42); flagged is_original = False"
+    ]
+   ],
+   "widths": [
+    2700,
+    900,
+    900,
+    4526
+   ]
+  },
+  "data_stats": {
+   "head": [
+    "Property",
+    "Value"
+   ],
+   "rows": [
+    [
+     "Rows / columns",
+     "5000 / 9"
+    ],
+    [
+     "Users / movies rated / catalogue",
+     "309 / 126 / 126"
+    ],
+    [
+     "Density",
+     "12.8%"
+    ],
+    [
+     "Ratings per user (min / median / max)",
+     "15 / 16 / 23"
+    ],
+    [
+     "Ratings per movie (min / median / max)",
+     "10 / 25 / 244"
+    ],
+    [
+     "Rating mean / median / std",
+     "3.90 / 4.0 / 0.84"
+    ],
+    [
+     "Share of ratings >= 4.0",
+     "58.8%"
+    ],
+    [
+     "Time range",
+     "2024-01-02 to 2025-12-31"
+    ],
+    [
+     "Languages (movies)",
+     "Hindi 40, Tamil 23, Telugu 23, English 19, Kannada 12, Malayalam 9"
+    ],
+    [
+     "Genres (movies)",
+     "Thriller 26, Action 24, Drama 23, Romance 20, Comedy 18, Sci-Fi 15"
+    ]
+   ],
+   "widths": [
+    3800,
+    5226
+   ]
+  },
+  "cleaning": {
+   "head": [
+    "Step",
+    "Rows removed",
+    "Reason"
+   ],
+   "rows": [
+    [
+     "Standardise text, coerce types",
+     "0",
+     "Trim spaces, canonical genre/language spelling"
+    ],
+    [
+     "Drop missing or unparseable key fields",
+     "0",
+     "Ratings and identifiers must not be imputed"
+    ],
+    [
+     "Drop ratings outside 1-5 or not in 0.5 steps",
+     "0",
+     "Valid rating scale"
+    ],
+    [
+     "Attach film attributes from catalogue",
+     "0",
+     "One fixed genre, language and year per film"
+    ],
+    [
+     "Drop ratings dated before release year",
+     "0",
+     "Anachronistic ratings are impossible"
+    ],
+    [
+     "Drop duplicate (user, movie) pairs",
+     "0",
+     "One cell per user-movie pair"
+    ],
+    [
+     "Outlier check",
+     "0",
+     "Bounded scale; valid extremes kept"
+    ]
+   ],
+   "widths": [
+    3700,
+    1300,
+    4026
+   ]
+  },
+  "splits": {
+   "head": [
+    "Set",
+    "Ratings",
+    "Use"
+   ],
+   "rows": [
+    [
+     "train_core",
+     "3213",
+     "Fit models while tuning"
+    ],
+    [
+     "validation",
+     "816",
+     "Latest 20% of each user's train_full ratings; model selection"
+    ],
+    [
+     "train_full",
+     "4029",
+     "Final fit of the selected models (train_core + validation)"
+    ],
+    [
+     "test",
+     "971",
+     "Latest 20% of each user's ratings; opened once in the final evaluation"
+    ]
+   ],
+   "widths": [
+    1800,
+    1300,
+    5926
+   ]
+  },
+  "hyp": {
+   "head": [
+    "ID",
+    "Hypothesis",
+    "Test"
+   ],
+   "rows": [
+    [
+     "H1",
+     "Movies with more ratings have higher mean rating",
+     "Spearman correlation"
+    ],
+    [
+     "H2",
+     "Ratings differ across languages",
+     "Kruskal-Wallis"
+    ],
+    [
+     "H3",
+     "Ratings differ across genres",
+     "Kruskal-Wallis"
+    ],
+    [
+     "H4",
+     "Users differ in how generously they rate",
+     "One-way ANOVA (omega-squared)"
+    ],
+    [
+     "H5",
+     "Users' language mix is less varied than popularity alone predicts",
+     "Permutation test (300 simulations)"
+    ]
+   ],
+   "widths": [
+    700,
+    5600,
+    2726
+   ]
+  },
+  "val_exp": {
+   "head": [
+    "ID",
+    "Model",
+    "RMSE",
+    "MAE",
+    "P@10",
+    "R@10",
+    "Cov.@10"
+   ],
+   "rows": [
+    [
+     "E01",
+     "Global mean",
+     "0.836",
+     "0.693",
+     "",
+     "",
+     ""
+    ],
+    [
+     "E02",
+     "User mean",
+     "0.789",
+     "0.648",
+     "",
+     "",
+     ""
+    ],
+    [
+     "E03",
+     "Item mean",
+     "0.742",
+     "0.601",
+     "",
+     "",
+     ""
+    ],
+    [
+     "E04",
+     "Bias baseline (mu+b_u+b_i)",
+     "0.693",
+     "0.558",
+     "",
+     "",
+     ""
+    ],
+    [
+     "E05",
+     "Random recommender",
+     "",
+     "",
+     "0.016",
+     "0.088",
+     "1.000"
+    ],
+    [
+     "E06",
+     "Popularity (most rated)",
+     "",
+     "",
+     "0.059",
+     "0.344",
+     "0.151"
+    ],
+    [
+     "E07",
+     "Top-rated (shrunk mean)",
+     "",
+     "",
+     "0.053",
+     "0.312",
+     "0.119"
+    ],
+    [
+     "E08",
+     "Item-based CF (adjusted cosine, residuals)",
+     "0.740",
+     "0.590",
+     "0.033",
+     "0.185",
+     "0.786"
+    ],
+    [
+     "E09",
+     "Item-based CF + damping",
+     "0.690",
+     "0.556",
+     "0.046",
+     "0.267",
+     "0.262"
+    ],
+    [
+     "E10",
+     "Bias baseline (tuned)",
+     "0.690",
+     "0.550",
+     "0.043",
+     "0.259",
+     "0.119"
+    ],
+    [
+     "E11",
+     "Item-based CF (tuned)",
+     "0.689",
+     "0.551",
+     "0.045",
+     "0.268",
+     "0.159"
+    ],
+    [
+     "E12",
+     "User-based CF (tuned)",
+     "0.689",
+     "0.550",
+     "0.045",
+     "0.267",
+     "0.135"
+    ],
+    [
+     "E13",
+     "SVD / matrix factorisation (tuned)",
+     "0.686",
+     "0.551",
+     "0.043",
+     "0.258",
+     "0.159"
+    ],
+    [
+     "E14",
+     "Item CF + popularity blend",
+     "0.689",
+     "0.551",
+     "0.072",
+     "0.413",
+     "0.151"
+    ],
+    [
+     "E15",
+     "SVD + popularity blend",
+     "0.686",
+     "0.551",
+     "0.072",
+     "0.411",
+     "0.143"
+    ]
+   ],
+   "widths": [
+    700,
+    3500,
+    900,
+    900,
+    900,
+    900,
+    1226
+   ]
+  },
+  "tuning": {
+   "head": [
+    "Model",
+    "Configs",
+    "Best settings",
+    "Mean-fold RMSE"
+   ],
+   "rows": [
+    [
+     "Bias baseline",
+     "36",
+     "lam_i=2, lam_u=2",
+     "0.6954"
+    ],
+    [
+     "Item-based CF",
+     "180",
+     "k=10, shrink=500, damp=0.1",
+     "0.6948"
+    ],
+    [
+     "User-based CF",
+     "160",
+     "sim=cosine, k=160, shrink=10, damp=20",
+     "0.6953"
+    ],
+    [
+     "SVD (Surprise)",
+     "320",
+     "n_factors=20, lr=0.01, reg=0.1, epochs=20",
+     "0.6955"
+    ]
+   ],
+   "widths": [
+    1900,
+    1400,
+    4500,
+    1226
+   ]
+  },
+  "lc": {
+   "head": [
+    "Share of train_core used",
+    "Ratings",
+    "Bias baseline RMSE",
+    "Item CF RMSE",
+    "SVD RMSE",
+    "Item CF - Bias",
+    "SVD - Bias"
+   ],
+   "rows": [
+    [
+     "25%",
+     "701",
+     "0.7645",
+     "0.7646",
+     "0.7542",
+     "+0.0001",
+     "-0.0103"
+    ],
+    [
+     "50%",
+     "1573",
+     "0.7190",
+     "0.7192",
+     "0.7158",
+     "+0.0003",
+     "-0.0032"
+    ],
+    [
+     "75%",
+     "2281",
+     "0.6994",
+     "0.6993",
+     "0.6954",
+     "-0.0001",
+     "-0.0040"
+    ],
+    [
+     "100%",
+     "3213",
+     "0.6897",
+     "0.6888",
+     "0.6859",
+     "-0.0009",
+     "-0.0038"
+    ]
+   ],
+   "widths": [
+    1500,
+    900,
+    1400,
+    1300,
+    1100,
+    1450,
+    1376
+   ]
+  },
+  "test_rating": {
+   "head": [
+    "Model",
+    "RMSE",
+    "MAE",
+    "RMSE without original rows"
+   ],
+   "rows": [
+    [
+     "Global mean",
+     "0.8420",
+     "0.6958",
+     "0.8404"
+    ],
+    [
+     "User mean",
+     "0.8248",
+     "0.6697",
+     "0.8066"
+    ],
+    [
+     "Item mean",
+     "0.7576",
+     "0.6094",
+     "0.7370"
+    ],
+    [
+     "Bias baseline",
+     "0.7234",
+     "0.5719",
+     "0.6883"
+    ],
+    [
+     "Item CF",
+     "0.7224",
+     "0.5705",
+     "0.6872"
+    ],
+    [
+     "User CF",
+     "0.7230",
+     "0.5716",
+     "0.6879"
+    ],
+    [
+     "SVD",
+     "0.7212",
+     "0.5700",
+     "0.6860"
+    ]
+   ],
+   "widths": [
+    3600,
+    1500,
+    1500,
+    2426
+   ]
+  },
+  "test_rank": {
+   "head": [
+    "Model",
+    "P@5",
+    "P@10",
+    "R@10",
+    "NDCG@10",
+    "Hit@10",
+    "Cov.@10"
+   ],
+   "rows": [
+    [
+     "Random",
+     "0.017",
+     "0.017",
+     "0.085",
+     "0.047",
+     "0.165",
+     "1.000"
+    ],
+    [
+     "Popularity",
+     "0.110",
+     "0.079",
+     "0.401",
+     "0.294",
+     "0.644",
+     "0.159"
+    ],
+    [
+     "Top-rated",
+     "0.077",
+     "0.056",
+     "0.268",
+     "0.192",
+     "0.472",
+     "0.127"
+    ],
+    [
+     "Item CF",
+     "0.069",
+     "0.052",
+     "0.250",
+     "0.176",
+     "0.447",
+     "0.167"
+    ],
+    [
+     "User CF",
+     "0.071",
+     "0.053",
+     "0.254",
+     "0.172",
+     "0.458",
+     "0.127"
+    ],
+    [
+     "SVD",
+     "0.072",
+     "0.050",
+     "0.239",
+     "0.160",
+     "0.423",
+     "0.151"
+    ],
+    [
+     "Item CF + popularity (deployed)",
+     "0.115",
+     "0.080",
+     "0.403",
+     "0.286",
+     "0.648",
+     "0.159"
+    ],
+    [
+     "SVD + popularity",
+     "0.111",
+     "0.079",
+     "0.403",
+     "0.288",
+     "0.641",
+     "0.167"
+    ],
+    [
+     "Deployed + MMR/exposure (safe)",
+     "0.104",
+     "0.077",
+     "0.396",
+     "0.285",
+     "0.637",
+     "0.310"
+    ],
+    [
+     "Deployed + MMR/exposure (diverse)",
+     "0.104",
+     "0.075",
+     "0.388",
+     "0.282",
+     "0.630",
+     "0.397"
+    ]
+   ],
+   "widths": [
+    3300,
+    800,
+    800,
+    800,
+    1000,
+    900,
+    1426
+   ]
+  },
+  "sig": {
+   "head": [
+    "Comparison (first minus second)",
+    "Metric",
+    "Difference",
+    "95% CI"
+   ],
+   "rows": [
+    [
+     "Item CF - Item mean",
+     "RMSE",
+     "-0.0352",
+     "[-0.0562, -0.0154]"
+    ],
+    [
+     "Item CF - Global mean",
+     "RMSE",
+     "-0.1195",
+     "[-0.1483, -0.0908]"
+    ],
+    [
+     "Item CF - Bias baseline",
+     "RMSE",
+     "-0.0009",
+     "[-0.0043, +0.0025]"
+    ],
+    [
+     "SVD - Bias baseline",
+     "RMSE",
+     "-0.0022",
+     "[-0.0066, +0.0021]"
+    ],
+    [
+     "Deployed blend - Popularity",
+     "P@10",
+     "+0.0004",
+     "[-0.0039, +0.0046]"
+    ],
+    [
+     "Item CF - Popularity",
+     "P@10",
+     "-0.0275",
+     "[-0.0349, -0.0194]"
+    ],
+    [
+     "Deployed blend - Item CF",
+     "P@10",
+     "+0.0278",
+     "[+0.0208, +0.0349]"
+    ],
+    [
+     "Safe re-ranked - Deployed blend",
+     "P@10",
+     "-0.0021",
+     "[-0.0060, +0.0014]"
+    ]
+   ],
+   "widths": [
+    3700,
+    1100,
+    1700,
+    2526
+   ]
+  },
+  "crit": {
+   "head": [
+    "#",
+    "Criterion",
+    "Target",
+    "Result on test set",
+    "Met?"
+   ],
+   "rows": [
+    [
+     1,
+     "Best CF RMSE below item-mean baseline",
+     "Lower",
+     "0.7224 vs 0.7576 (diff -0.0352, CI [-0.0562, -0.0154])",
+     "Met"
+    ],
+    [
+     2,
+     "Best CF RMSE below global-mean baseline",
+     "Lower",
+     "0.7224 vs 0.8420 (diff -0.1195, CI [-0.1483, -0.0908])",
+     "Met"
+    ],
+    [
+     3,
+     "P@10 above popularity baseline",
+     "Higher",
+     "0.0796 vs 0.0792 (diff +0.0004, CI [-0.0039, +0.0046])",
+     "Not met (statistical tie)"
+    ],
+    [
+     4,
+     "Catalogue coverage@10",
+     ">= 30% (assumed target)",
+     "deployed 15.9%; with safe re-ranker 31.0%; diverse 39.7%",
+     "Not met by deployed model; met with re-ranker"
+    ],
+    [
+     5,
+     "Re-ranker raises diversity with <= 5% relative P@10 loss",
+     "Improves, loss <= 5%",
+     "combined ILD 0.818 -> 0.869; P@10 0.0796 -> 0.0775 (-2.7%)",
+     "Met"
+    ],
+    [
+     6,
+     "RMSE gap across user-activity groups",
+     "<= 0.15",
+     "0.057 (bootstrap 95% range 0.016-0.138; max-min is biased upward)",
+     "Met"
+    ],
+    [
+     7,
+     "API and UI",
+     "All endpoint tests pass",
+     "Built in Stage 11",
+     "Pending"
+    ]
+   ],
+   "widths": [
+    400,
+    2200,
+    1300,
+    3926,
+    1200
+   ]
+  },
+  "div": {
+   "head": [
+    "Model",
+    "Genre ILD",
+    "Lang. ILD",
+    "Coverage",
+    "Gini",
+    "Tail share",
+    "Tail movies shown",
+    "Taste align."
+   ],
+   "rows": [
+    [
+     "Random",
+     "0.842",
+     "0.800",
+     "1.000",
+     "0.130",
+     "83.5%",
+     "101 / 101",
+     "0.495"
+    ],
+    [
+     "Popularity",
+     "0.792",
+     "0.816",
+     "0.159",
+     "0.888",
+     "0.0%",
+     "0 / 101",
+     "0.487"
+    ],
+    [
+     "Item CF",
+     "0.802",
+     "0.841",
+     "0.167",
+     "0.899",
+     "56.6%",
+     "14 / 101",
+     "0.487"
+    ],
+    [
+     "SVD",
+     "0.802",
+     "0.808",
+     "0.151",
+     "0.901",
+     "60.3%",
+     "12 / 101",
+     "0.481"
+    ],
+    [
+     "Deployed blend",
+     "0.826",
+     "0.810",
+     "0.159",
+     "0.890",
+     "1.5%",
+     "3 / 101",
+     "0.483"
+    ],
+    [
+     "Safe re-ranked",
+     "0.868",
+     "0.869",
+     "0.310",
+     "0.877",
+     "11.7%",
+     "17 / 101",
+     "0.490"
+    ],
+    [
+     "Deployed + re-ranker (diverse)",
+     "0.863",
+     "0.847",
+     "0.397",
+     "0.814",
+     "17.3%",
+     "25 / 101",
+     "0.494"
+    ]
+   ],
+   "widths": [
+    2500,
+    850,
+    850,
+    950,
+    750,
+    1000,
+    1226,
+    900
+   ]
+  },
+  "lang": {
+   "head": [
+    "Language",
+    "Catalogue",
+    "Relevant test",
+    "Popularity",
+    "Deployed",
+    "Safe re-ranker"
+   ],
+   "rows": [
+    [
+     "Hindi",
+     "31.7%",
+     "39.0%",
+     "35.0%",
+     "36.4%",
+     "30.2%"
+    ],
+    [
+     "Tamil",
+     "18.3%",
+     "10.7%",
+     "9.5%",
+     "13.5%",
+     "15.6%"
+    ],
+    [
+     "Telugu",
+     "18.3%",
+     "18.5%",
+     "27.6%",
+     "28.0%",
+     "22.0%"
+    ],
+    [
+     "Kannada",
+     "9.5%",
+     "8.7%",
+     "14.2%",
+     "7.8%",
+     "10.8%"
+    ],
+    [
+     "Malayalam",
+     "7.1%",
+     "9.2%",
+     "7.2%",
+     "7.5%",
+     "11.0%"
+    ],
+    [
+     "English",
+     "15.1%",
+     "13.9%",
+     "6.6%",
+     "6.8%",
+     "10.4%"
+    ]
+   ],
+   "widths": [
+    1700,
+    1400,
+    1500,
+    1400,
+    1400,
+    1626
+   ]
+  },
+  "fair": {
+   "head": [
+    "Grouping",
+    "Group",
+    "Users",
+    "RMSE Item CF",
+    "RMSE bias baseline"
+   ],
+   "rows": [
+    [
+     "activity",
+     "heavy",
+     "103",
+     "0.749",
+     "0.745"
+    ],
+    [
+     "activity",
+     "light",
+     "103",
+     "0.721",
+     "0.728"
+    ],
+    [
+     "activity",
+     "medium",
+     "103",
+     "0.692",
+     "0.693"
+    ],
+    [
+     "rating generosity",
+     "middle",
+     "103",
+     "0.752",
+     "0.749"
+    ],
+    [
+     "rating generosity",
+     "generous raters",
+     "103",
+     "0.691",
+     "0.693"
+    ],
+    [
+     "rating generosity",
+     "strict raters",
+     "103",
+     "0.722",
+     "0.726"
+    ],
+    [
+     "generator taste group",
+     "Bollywood mainstream",
+     "82",
+     "0.737",
+     "0.738"
+    ],
+    [
+     "generator taste group",
+     "Southern action",
+     "56",
+     "0.694",
+     "0.696"
+    ],
+    [
+     "generator taste group",
+     "Broad explorer",
+     "37",
+     "0.673",
+     "0.670"
+    ],
+    [
+     "generator taste group",
+     "Thriller and mystery",
+     "45",
+     "0.661",
+     "0.661"
+    ],
+    [
+     "generator taste group",
+     "Hollywood sci-fi",
+     "36",
+     "0.820",
+     "0.825"
+    ],
+    [
+     "generator taste group",
+     "Regional drama",
+     "53",
+     "0.745",
+     "0.745"
+    ]
+   ],
+   "widths": [
+    2400,
+    2400,
+    900,
+    1600,
+    1726
+   ]
+  },
+  "err": {
+   "head": [
+    "Grouped by",
+    "Group",
+    "Ratings",
+    "RMSE Item CF",
+    "RMSE bias",
+    "Mean error"
+   ],
+   "rows": [
+    [
+     "language",
+     "English",
+     "127",
+     "0.700",
+     "0.697",
+     "-0.10"
+    ],
+    [
+     "language",
+     "Hindi",
+     "342",
+     "0.735",
+     "0.734",
+     "-0.04"
+    ],
+    [
+     "language",
+     "Kannada",
+     "86",
+     "0.809",
+     "0.815",
+     "+0.00"
+    ],
+    [
+     "language",
+     "Malayalam",
+     "87",
+     "0.647",
+     "0.647",
+     "+0.04"
+    ],
+    [
+     "language",
+     "Tamil",
+     "143",
+     "0.714",
+     "0.718",
+     "+0.11"
+    ],
+    [
+     "language",
+     "Telugu",
+     "186",
+     "0.713",
+     "0.715",
+     "-0.06"
+    ],
+    [
+     "movie popularity",
+     "rare movies",
+     "324",
+     "0.734",
+     "0.734",
+     "+0.01"
+    ],
+    [
+     "movie popularity",
+     "mid",
+     "323",
+     "0.765",
+     "0.766",
+     "-0.05"
+    ],
+    [
+     "movie popularity",
+     "popular movies",
+     "324",
+     "0.664",
+     "0.666",
+     "-0.02"
+    ],
+    [
+     "activity",
+     "heavy",
+     "353",
+     "0.749",
+     "0.745",
+     "-0.08"
+    ],
+    [
+     "activity",
+     "light",
+     "309",
+     "0.721",
+     "0.728",
+     "+0.03"
+    ],
+    [
+     "activity",
+     "medium",
+     "309",
+     "0.692",
+     "0.693",
+     "-0.00"
+    ],
+    [
+     "actual rating",
+     "1-2",
+     "31",
+     "1.586",
+     "1.595",
+     "+1.51"
+    ],
+    [
+     "actual rating",
+     "2.5-3",
+     "191",
+     "0.860",
+     "0.863",
+     "+0.74"
+    ],
+    [
+     "actual rating",
+     "3.5-4",
+     "381",
+     "0.443",
+     "0.442",
+     "+0.02"
+    ],
+    [
+     "actual rating",
+     "4.5-5",
+     "368",
+     "0.760",
+     "0.759",
+     "-0.59"
+    ]
+   ],
+   "widths": [
+    1800,
+    1900,
+    1000,
+    1500,
+    1300,
+    1526
+   ]
+  },
+  "calib": {
+   "head": [
+    "Predicted rating bin",
+    "Ratings",
+    "Mean predicted",
+    "Mean actual"
+   ],
+   "rows": [
+    [
+     "<3.0",
+     "34",
+     "2.786",
+     "2.706"
+    ],
+    [
+     "3.0-3.5",
+     "186",
+     "3.301",
+     "3.478"
+    ],
+    [
+     "3.5-4.0",
+     "364",
+     "3.758",
+     "3.806"
+    ],
+    [
+     "4.0-4.5",
+     "263",
+     "4.225",
+     "4.137"
+    ],
+    [
+     "4.5+",
+     "124",
+     "4.734",
+     "4.702"
+    ]
+   ],
+   "widths": [
+    2600,
+    1500,
+    2300,
+    2626
+   ]
+  },
+  "latency": {
+   "head": [
+    "Request (300 real HTTP calls, localhost)",
+    "Median",
+    "95th percentile",
+    "Max"
+   ],
+   "rows": [
+    [
+     "recommend k=10 (deployed)",
+     "3.0 ms",
+     "4.7 ms",
+     "6.5 ms"
+    ],
+    [
+     "recommend k=10 diversify=safe",
+     "4.0 ms",
+     "5.9 ms",
+     "23.3 ms"
+    ]
+   ],
+   "widths": [
+    4300,
+    1400,
+    1800,
+    1526
+   ]
+  },
+  "api": {
+   "head": [
+    "Endpoint",
+    "Purpose"
+   ],
+   "rows": [
+    [
+     "GET /api/health",
+     "Status, counts, methods"
+    ],
+    [
+     "GET /api/recommend?user_id=&k=&method=&diversify=",
+     "Top-k unseen movies; unknown users get a popularity fallback"
+    ],
+    [
+     "GET /api/similar?movie=&n=",
+     "Most similar movies (item-based CF)"
+    ],
+    [
+     "GET /api/user/<id>/history",
+     "A user's training ratings"
+    ],
+    [
+     "GET /api/explain?user_id=&movie=",
+     "Prediction broken into biases and similar-movie adjustment"
+    ]
+   ],
+   "widths": [
+    4400,
+    4626
+   ]
+  },
+  "stack": {
+   "head": [
+    "Layer",
+    "Technology"
+   ],
+   "rows": [
+    [
+     "Language / data",
+     "Python 3.12, pandas, NumPy, SciPy"
+    ],
+    [
+     "Models",
+     "Surprise (SVD); own NumPy implementations of item-based and user-based CF, baselines, popularity blend, MMR re-ranker"
+    ],
+    [
+     "Back end",
+     "Flask REST API; shared service layer (src/serving.py); joblib model files"
+    ],
+    [
+     "Front end",
+     "Streamlit dashboard"
+    ],
+    [
+     "Analysis and testing",
+     "Jupyter, matplotlib, seaborn, pytest (56 tests)"
+    ],
+    [
+     "Storage",
+     "CSV files (no database server was needed)"
+    ]
+   ],
+   "widths": [
+    2200,
+    6826
+   ]
+  }
+ },
+ "insights": [
+  {
+   "insight": "Ratings are skewed towards high values: mean 3.90, median 4.0, skew -0.44; 58.8% of ratings are >= 4.0 and only 3.0% are <= 2.0.",
+   "decision": "Because most ratings are high, mean baselines are strong and RMSE gains will be modest. Define 'relevant' as rating >= 4.0 for precision@K and recall@K."
+  },
+  {
+   "insight": "Popularity is concentrated: the top 10% of movies receive 31.7% of ratings (Gini 0.40); the most rated movie has 244 ratings while 32 of 126 movies have fewer than 20. Users give 15-23 ratings (median 16).",
+   "decision": "A popularity recommender will be a strong baseline. Thin movies are cold-start risks: use similarity shrinkage and a minimum-support rule, and report long-tail exposure in the diversity audit."
+  },
+  {
+   "insight": "Overall density is 12.8% (a typical user rated 16 of 126 movies). Two random users share a median of 4 rated movies (0.8% of user pairs share none, only 28.0% share 5+). Two random movies share a median of 3 raters.",
+   "decision": "Overlap is modest in both directions (users and movies), so similarity estimates are noisy: use shrinkage/min-support in user-based and item-based CF, and compare them with SVD, which factorises the sparse matrix, in Stage 9."
+  },
+  {
+   "insight": "Hindi is 31.7% of the catalogue and 34.0% of ratings. Largest language gaps: Hindi +2.2 pp, Tamil -2.9 pp. Largest genre gaps: Action +3.1 pp, Sci-Fi -3.5 pp. Southern regional languages (Tamil, Telugu, Kannada, Malayalam) are 53.2% of the catalogue and 52.4% of ratings.",
+   "decision": "Use these shares as the baseline for the diversity audit: a fair recommender should keep regional-language and genre shares in recommendations close to the catalogue, not only to what is already most rated."
+  },
+  {
+   "insight": "Language means range 3.69 (Tamil) to 4.02 (Hindi); genre means range 3.60 (Sci-Fi) to 4.02 (Romance). Overall mean is 3.90.",
+   "decision": "Group averages shift ratings by only a few tenths of a star. Keep genre/language for diversity metrics and cold-start fallback, not as the main predictor; personalisation has to come from user-item patterns."
+  },
+  {
+   "insight": "Activity ramps up from 44 ratings in Jan 2024 to a peak of 293 in Jan 2025, then declines to 150 by Dec 2025; the monthly mean rating stays between 3.66 and 4.04. (The ramp comes from each synthetic user's activity window.)",
+   "decision": "Rating level is stable over time, but volume is not. Use a per-user chronological split (each user's latest 20% of ratings as test) instead of one global cut-off, so every user is in both train and test and nothing from the future enters training."
+  },
+  {
+   "insight": "User mean ratings range 2.75-4.73 (std 0.35); movie mean ratings range 2.57-4.71 (std 0.43).",
+   "decision": "Both generous users and well-liked movies exist, so predictions must include user and movie biases. Mean-centre ratings in the kNN models and use bias terms in SVD; compare against the baseline mu + b_user + b_item."
+  },
+  {
+   "insight": "H1 popularity vs rating: rho = 0.20 (small/weak), p = 0.026. Popular movies are rated slightly higher, but the link is weak.",
+   "decision": "Popularity is only a weak signal of quality; keep it as a ranking baseline but do not rely on it."
+  },
+  {
+   "insight": "H2/H3 language and genre: effect sizes eps2 = 0.019 (small/weak) and eps2 = 0.018 (small/weak). Differences are statistically real but small.",
+   "decision": "Consistent with chart 5: use genre/language for diversity and cold-start only."
+  },
+  {
+   "insight": "H4 user generosity: omega2 = 0.120 (medium/moderate), F = 3.21. Which user is rating explains a sizeable share of rating variance (bias-corrected omega-squared; plain eta-squared would overstate it with 309 small groups).",
+   "decision": "User bias is the strongest simple signal: mean-centring and the user-bias baseline are mandatory."
+  },
+  {
+   "insight": "H5 filter-bubble risk: users' languages are slightly less varied than popularity alone predicts (obs 2.172 vs null 2.199 bits, p = 0.0233); the effect is small (drop 0.027 bits (max 2.58)).",
+   "decision": "Taste concentration is mild in this data, but CF amplifies whatever concentration exists. Measure language/genre diversity of recommendations and test a re-ranker in Stage 10."
+  }
+ ],
+ "figs": {
+  "eda_01_rating_distribution": {
+   "path": "/home/claude/movie-recsys/reports/figures/eda_01_rating_distribution.png",
+   "w": 1050,
+   "h": 600
+  },
+  "eda_02_long_tail": {
+   "path": "/home/claude/movie-recsys/reports/figures/eda_02_long_tail.png",
+   "w": 1650,
+   "h": 600
+  },
+  "eda_03_matrix_sparsity": {
+   "path": "/home/claude/movie-recsys/reports/figures/eda_03_matrix_sparsity.png",
+   "w": 1500,
+   "h": 750
+  },
+  "eda_04_genre_language_share": {
+   "path": "/home/claude/movie-recsys/reports/figures/eda_04_genre_language_share.png",
+   "w": 1800,
+   "h": 600
+  },
+  "eda_06_ratings_over_time": {
+   "path": "/home/claude/movie-recsys/reports/figures/eda_06_ratings_over_time.png",
+   "w": 1500,
+   "h": 600
+  },
+  "eda_07_user_movie_bias": {
+   "path": "/home/claude/movie-recsys/reports/figures/eda_07_user_movie_bias.png",
+   "w": 1650,
+   "h": 600
+  },
+  "s10_01_rmse_differences": {
+   "path": "/home/claude/movie-recsys/reports/figures/s10_01_rmse_differences.png",
+   "w": 1350,
+   "h": 720
+  },
+  "s10_02_p10_differences": {
+   "path": "/home/claude/movie-recsys/reports/figures/s10_02_p10_differences.png",
+   "w": 1350,
+   "h": 720
+  },
+  "s10_03_accuracy_diversity_tradeoff": {
+   "path": "/home/claude/movie-recsys/reports/figures/s10_03_accuracy_diversity_tradeoff.png",
+   "w": 1200,
+   "h": 825
+  },
+  "s10_04_language_share": {
+   "path": "/home/claude/movie-recsys/reports/figures/s10_04_language_share.png",
+   "w": 1650,
+   "h": 720
+  },
+  "s10_05_exposure": {
+   "path": "/home/claude/movie-recsys/reports/figures/s10_05_exposure.png",
+   "w": 1950,
+   "h": 690
+  },
+  "s10_06_error_analysis": {
+   "path": "/home/claude/movie-recsys/reports/figures/s10_06_error_analysis.png",
+   "w": 1950,
+   "h": 690
+  },
+  "s10_07_fairness_groups": {
+   "path": "/home/claude/movie-recsys/reports/figures/s10_07_fairness_groups.png",
+   "w": 1650,
+   "h": 720
+  },
+  "arch_dfd_level0": {
+   "path": "/home/claude/movie-recsys/reports/figures/arch_dfd_level0.png",
+   "w": 1870,
+   "h": 1020
+  },
+  "arch_block_diagram": {
+   "path": "/home/claude/movie-recsys/reports/figures/arch_block_diagram.png",
+   "w": 2210,
+   "h": 1292
+  }
+ },
+ "api_sample": "{\n  \"user_id\": 8,\n  \"method\": \"deployed\",\n  \"diversify\": \"safe\",\n  \"source\": \"personalised\",\n  \"recommendations\": [\n    {\n      \"rank\": 1,\n      \"title\": \"Magadheera\",\n      \"genre\": \"Action\",\n      \"language\": \"Telugu\",\n      \"predicted_rating\": 4.77\n    },\n    {\n      \"rank\": 2,\n      \"title\": \"U Turn\",\n      \"genre\": \"Thriller\",\n      \"language\": \"Kannada\",\n      \"predicted_rating\": 4.54\n    },\n    {\n      \"rank\": 3,\n      \"title\": \"PK\",\n      \"genre\": \"Comedy\",\n      \"language\": \"Hindi\",\n      \"predicted_rating\": 4.49\n    }\n  ],\n  \"diversity\": {\n    \"genre\": 1.0,\n    \"language\": 1.0,\n    \"combined\": 1.0,\n    \"distinct_genres\": 3,\n    \"distinct_languages\": 3\n  }\n}",
+ "api_error": "{\n  \"error\": {\n    \"code\": \"invalid_parameter\",\n    \"message\": \"Parameter \\\"user_id\\\" must be a whole number, got \\\"abc\\\".\"\n  }\n}",
+ "hyp_results": [
+  "H1 popularity vs rating: rho = 0.20 (small/weak), p = 0.026. Popular movies are rated slightly higher, but the link is weak.",
+  "H2/H3 language and genre: effect sizes eps2 = 0.019 (small/weak) and eps2 = 0.018 (small/weak). Differences are statistically real but small.",
+  "H4 user generosity: omega2 = 0.120 (medium/moderate), F = 3.21. Which user is rating explains a sizeable share of rating variance (bias-corrected omega-squared; plain eta-squared would overstate it with 309 small groups).",
+  "H5 filter-bubble risk: users' languages are slightly less varied than popularity alone predicts (obs 2.172 vs null 2.199 bits, p = 0.0233); the effect is small (drop 0.027 bits (max 2.58))."
+ ]
+}

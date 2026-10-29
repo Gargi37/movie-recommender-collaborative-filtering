@@ -1,0 +1,8 @@
+#,Criterion (Stage 1),Target,Result on test set,Met?
+1,Best CF RMSE below item-mean baseline,Lower,"0.7224 vs 0.7576 (diff -0.0352, CI [-0.0562, -0.0154])",Met
+2,Best CF RMSE below global-mean baseline,Lower,"0.7224 vs 0.8420 (diff -0.1195, CI [-0.1483, -0.0908])",Met
+3,P@10 above popularity baseline,Higher,"0.0796 vs 0.0792 (diff +0.0004, CI [-0.0039, +0.0046])",Not met (statistical tie)
+4,Catalogue coverage@10,>= 30% (assumed target),deployed 15.9%; with safe re-ranker 31.0%; diverse 39.7%,Not met by deployed model; met with re-ranker
+5,Re-ranker raises diversity with <= 5% relative P@10 loss,"Improves, loss <= 5%",combined ILD 0.818 -> 0.869; P@10 0.0796 -> 0.0775 (-2.7%),Met
+6,RMSE gap across user-activity groups,<= 0.15,0.057 (bootstrap 95% range 0.016-0.138; max-min is biased upward),Met
+7,API and UI,All endpoint tests pass,Built in Stage 11,Pending

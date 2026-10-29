@@ -1,0 +1,11 @@
+{
+  "safe": {
+    "lam": 0.4,
+    "gamma": 0.0
+  },
+  "diverse": {
+    "lam": 0.6,
+    "gamma": 0.5
+  },
+  "rule": "maximise coverage@10 (tie: combined ILD) subject to relative P@10 loss <= 5% (safe) / <= 20% (diverse), chosen on validation"
+}

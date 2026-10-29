@@ -1,0 +1,10 @@
+column_name,data_type,unit,allowed_values,sample_value_1,sample_value_2,sample_value_3,nullable,description,notes
+user_id,integer,id,Positive integer (subset of 1-500),202,308,344,No,"Pseudonymous identifier of the viewer. A code, not a real person; no PII.",Key (with movie_id). Used by the model.
+movie_title,string,-,126 unique titles,Andhadhun,Drishyam,Charlie,No,Name of the film. One-to-one with movie_id.,Display only; the model uses movie_id.
+genre,categorical,-,"Action, Comedy, Drama, Romance, Sci-Fi, Thriller",Thriller,Thriller,Romance,No,"Primary genre of the film (single label per film, simplification).","Fixed per movie. Used for diversity metrics and cold-start fallback, not for the CF models."
+language,categorical,-,"Hindi, Tamil, Telugu, Kannada, Malayalam, English",Hindi,Hindi,Malayalam,No,Original language of the film (English = Hollywood).,Fixed per movie. Used for regional-share and diversity metrics.
+release_year,integer,year,1975-2024,2018,2015,2015,No,Year the film was released.,Fixed per movie. Used for novelty analysis; a rating is never earlier than this year.
+rating,float,stars,1.0 to 5.0 in steps of 0.5,3.5,2.5,3.5,No,"Score the user gave the film (1 = dislike, 5 = love). This is the TARGET of rating prediction.",Relevance for ranking metrics: rating >= 4.0. Never use as an input feature.
+timestamp,datetime (string),YYYY-MM-DD HH:MM:SS,2024-01-01 to 2025-12-31,2024-01-02 02:08:31,2024-01-03 18:34:29,2024-01-04 03:58:00,No,Date and time the rating was given.,Used ONLY to order ratings for the chronological train/test split. Parsed to datetime in Stage 5.
+movie_id,string,id,M001-M126,M002,M005,M100,No,Unique film code from movie_catalogue.csv.,Added in Stage 3. Key (with user_id). Used by the model.
+is_original,boolean,-,True / False,True,True,False,No,True if the row comes from the provided dataset.csv; False if synthetically generated.,DO NOT USE as a model input: generation artefact (leakage of provenance). Only for audit.

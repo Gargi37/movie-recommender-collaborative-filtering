@@ -1,0 +1,127 @@
+movie_id,movie_title,genre,language,release_year
+M001,3 Idiots,Comedy,Hindi,2009
+M002,Andhadhun,Thriller,Hindi,2018
+M003,Dangal,Drama,Hindi,2016
+M004,Pink,Drama,Hindi,2016
+M005,Drishyam,Thriller,Hindi,2015
+M006,Lagaan,Drama,Hindi,2001
+M007,Dilwale Dulhania Le Jayenge,Romance,Hindi,1995
+M008,Queen,Comedy,Hindi,2013
+M009,PK,Comedy,Hindi,2014
+M010,Zindagi Na Milegi Dobara,Drama,Hindi,2011
+M011,Gully Boy,Drama,Hindi,2019
+M012,Barfi!,Romance,Hindi,2012
+M013,Dil Chahta Hai,Comedy,Hindi,2001
+M014,Rang De Basanti,Drama,Hindi,2006
+M015,Taare Zameen Par,Drama,Hindi,2007
+M016,Munna Bhai M.B.B.S.,Comedy,Hindi,2003
+M017,Chak De! India,Drama,Hindi,2007
+M018,Kahaani,Thriller,Hindi,2012
+M019,Badla,Thriller,Hindi,2019
+M020,Special 26,Thriller,Hindi,2013
+M021,A Wednesday,Thriller,Hindi,2008
+M022,Jab We Met,Romance,Hindi,2007
+M023,Yeh Jawaani Hai Deewani,Romance,Hindi,2013
+M024,Rockstar,Romance,Hindi,2011
+M025,Veer-Zaara,Romance,Hindi,2004
+M026,Koi... Mil Gaya,Sci-Fi,Hindi,2003
+M027,Krrish,Sci-Fi,Hindi,2006
+M028,Ra.One,Sci-Fi,Hindi,2011
+M029,Bajrangi Bhaijaan,Drama,Hindi,2015
+M030,Sholay,Action,Hindi,1975
+M031,Dhoom 2,Action,Hindi,2006
+M032,War,Action,Hindi,2019
+M033,Pathaan,Action,Hindi,2023
+M034,Jawan,Action,Hindi,2023
+M035,Uri: The Surgical Strike,Action,Hindi,2019
+M036,Bhool Bhulaiyaa,Comedy,Hindi,2007
+M037,Hera Pheri,Comedy,Hindi,2000
+M038,Stree,Comedy,Hindi,2018
+M039,Tumbbad,Thriller,Hindi,2018
+M040,Article 15,Drama,Hindi,2019
+M041,Vikram,Action,Tamil,2022
+M042,Master,Action,Tamil,2021
+M043,Kaithi,Action,Tamil,2019
+M044,Enthiran,Sci-Fi,Tamil,2010
+M045,2.0,Sci-Fi,Tamil,2018
+M046,24,Sci-Fi,Tamil,2016
+M047,Vikram Vedha,Thriller,Tamil,2017
+M048,Super Deluxe,Drama,Tamil,2019
+M049,96,Romance,Tamil,2018
+M050,Jai Bhim,Drama,Tamil,2021
+M051,Asuran,Drama,Tamil,2019
+M052,Soorarai Pottru,Drama,Tamil,2020
+M053,Ratsasan,Thriller,Tamil,2018
+M054,Pariyerum Perumal,Drama,Tamil,2018
+M055,Mersal,Action,Tamil,2017
+M056,Theri,Action,Tamil,2016
+M057,Minnale,Romance,Tamil,2001
+M058,Vinnaithaandi Varuvaayaa,Romance,Tamil,2010
+M059,Maanagaram,Thriller,Tamil,2017
+M060,Thani Oruvan,Thriller,Tamil,2015
+M061,Love Today,Comedy,Tamil,2022
+M062,Kolamaavu Kokila,Comedy,Tamil,2018
+M063,Anniyan,Thriller,Tamil,2005
+M064,Baahubali,Action,Telugu,2015
+M065,RRR,Action,Telugu,2022
+M066,Pushpa: The Rise,Action,Telugu,2021
+M067,Magadheera,Action,Telugu,2009
+M068,Athadu,Action,Telugu,2005
+M069,Arjun Reddy,Romance,Telugu,2017
+M070,Sita Ramam,Romance,Telugu,2022
+M071,Geetha Govindam,Romance,Telugu,2018
+M072,Dear Comrade,Romance,Telugu,2019
+M073,Jersey,Drama,Telugu,2019
+M074,Mahanati,Drama,Telugu,2018
+M075,Rangasthalam,Drama,Telugu,2018
+M076,Ala Vaikunthapurramuloo,Comedy,Telugu,2020
+M077,Pelli Choopulu,Comedy,Telugu,2016
+M078,F2,Comedy,Telugu,2019
+M079,Brochevarevarura,Comedy,Telugu,2019
+M080,Goodachari,Thriller,Telugu,2018
+M081,Evaru,Thriller,Telugu,2019
+M082,Kshanam,Thriller,Telugu,2016
+M083,Agent Sai Srinivasa Athreya,Thriller,Telugu,2019
+M084,Aditya 369,Sci-Fi,Telugu,1991
+M085,Oke Oka Jeevitham,Sci-Fi,Telugu,2022
+M086,Kalki 2898 AD,Sci-Fi,Telugu,2024
+M087,KGF,Action,Kannada,2018
+M088,Kantara,Action,Kannada,2022
+M089,Ugramm,Action,Kannada,2014
+M090,Kirik Party,Comedy,Kannada,2016
+M091,Lucia,Thriller,Kannada,2013
+M092,U Turn,Thriller,Kannada,2016
+M093,Rangitaranga,Thriller,Kannada,2015
+M094,Kavaludaari,Thriller,Kannada,2019
+M095,Ulidavaru Kandanthe,Drama,Kannada,2014
+M096,777 Charlie,Drama,Kannada,2022
+M097,Mungaru Male,Romance,Kannada,2006
+M098,Sapta Sagaradaache Ello,Romance,Kannada,2023
+M099,Premam,Romance,Malayalam,2015
+M100,Charlie,Romance,Malayalam,2015
+M101,Kumbalangi Nights,Drama,Malayalam,2019
+M102,Maheshinte Prathikaaram,Comedy,Malayalam,2016
+M103,Joji,Thriller,Malayalam,2021
+M104,Manjummel Boys,Thriller,Malayalam,2024
+M105,Minnal Murali,Action,Malayalam,2021
+M106,Lucifer,Action,Malayalam,2019
+M107,Android Kunjappan Version 5.25,Sci-Fi,Malayalam,2019
+M108,Inception,Sci-Fi,English,2010
+M109,Interstellar,Sci-Fi,English,2014
+M110,The Matrix,Sci-Fi,English,1999
+M111,Blade Runner 2049,Sci-Fi,English,2017
+M112,The Martian,Sci-Fi,English,2015
+M113,The Dark Knight,Action,English,2008
+M114,Mad Max: Fury Road,Action,English,2015
+M115,Gladiator,Action,English,2000
+M116,Titanic,Romance,English,1997
+M117,La La Land,Romance,English,2016
+M118,The Notebook,Romance,English,2004
+M119,The Shawshank Redemption,Drama,English,1994
+M120,Forrest Gump,Drama,English,1994
+M121,Se7en,Thriller,English,1995
+M122,Shutter Island,Thriller,English,2010
+M123,Gone Girl,Thriller,English,2014
+M124,Knives Out,Thriller,English,2019
+M125,The Hangover,Comedy,English,2009
+M126,Superbad,Comedy,English,2007
